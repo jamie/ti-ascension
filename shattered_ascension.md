@@ -51,6 +51,7 @@ Decide if Imperium Rex will be included in the Objective Deck. (Not recommended)
 * A non-Home System planet without Ground Forces present taking a bombardment hit reverts immediately to neutral status. The bombarding player may choose to omit this effect.
 * For the purpose of Action Cards, a Home System is only considered as such if the race of origin controls it.
 * Opponent Home Systems may not be activated during the first round of play.
+* Gravity Rifts give +1 movement when moving through them in a _non-straight line_ (i.e., not exiting on the opposite side of entering. Roll one die for each ship passing through. At a roll of 1-3, the ship ends its move in the Gravity Rift. If there are already opponent ships present, immediately conduct a Space Battle.
 
 #### UNITS:
 * Dreadnoughts roll 2 dice during Space Battles and may bombard planets without an invasion taking place. They count as 2 units towards the production limit when producing units (also for secondary of Production). 
@@ -60,6 +61,15 @@ Decide if Imperium Rex will be included in the Objective Deck. (Not recommended)
 * Space Mines are placed on a border instead of inside a system. Space Mines are considered neutral and trigger the instant any fleet crosses the system (before PDS step). Mines cannot be stacked. Upon impact roll a number of dice equal to non-fighter ships passing through the mined border. Rolls of 8+ inflicts hit on the passing fleet. Hits may be distributed by the owner as usual.
 * Facilities may only be built on unexhausted planets. The total cost of the facility is to exhaust the planet.
 * PDS’ planetary shields do not obstruct any kind if bombardment, but each absorbs one bombardment hit.
+* All Flagships take up 2 production capacity to build.
+* Yssaril Flagship and its fleet may traverse Space Mines without triggering them, and may not be targeted by PDS fire.
+* Saar Flagship has a base movement of 2 and rolls only 2 dice in anti-fighter barrage. May be built in any system.
+* The Mechanized Unit is not invulnerable to bombardment and PDS fire. Bombardment hits must always be assigned to Mechanized Units first, and may not be sustained. Mechanized Units takes 2 production capacity to build.
+
+##### Mercenaries
+Mercenaries are not coupled to the Trade Strategy Card. Instead, a random Mercenary is drawn at the start of the Strategy Phase. Players may then make a simultaneous mercenary bid; this is accomplished by each player holding a number of Trade Goods tokens (may be 0) in his hand he is willing to pay for the Mercenary (these tokens may be taken from reinforcements pile, but it is not allowed to hold a number higher than the player is able to pay using his available Trade Goods, resources and/or influence. The highest bidder places the mercenary under his colors on a friendly planet or fleet. The actual bid is then paid normally by a mix of Trade Goods, resources and influence. Note; lost mercenary bids must now also be paid (in contrast to other bidding processes). Mercenaries that do not receive any bids are discarded.
+
+Next, it is possible for any to call a loyalty bid on existing mercenaries. Here at least 2 Trade Goods must be bid by the player calling it. Other players may also join this bid. If this bid is at least two Trade Goods higher than the owners counter-bid, the mercenary will switch sides and is placed at any planet or fleet friendly to the new owner. If the mercenary is of the same race as the owner, an over-bid of three Trade Goods is required.
 
 #### TECHNOLOGY:
 * Gen Synthesis upgrades an additional Shock Troop after a successful invasion, instead of reviving your units.
@@ -71,6 +81,31 @@ Decide if Imperium Rex will be included in the Objective Deck. (Not recommended)
 * Assault Cannons are applied to Cruisers as well as Dreadnoughts. The extra ‘shot’ means one die only, regardless of number of normal combat dice.
 * Automated Defence Turrets do not gain bonus from Hylar V Assault Laser when used.
 * Graviton Negator ignores all planetary shields. It also gives Cruisers the bombardment ability.
+* Duranium Armor, Gravity Drive, and Neural Computing do not have any pre-requisites.
+* Duranium Armor: During your tactical actions, you may ignore one hit on your forces from any combat roll. May replace Hylar V Laser as a pre-requisite.
+* Gravity Drive: During your tactical actions, one of your (non-War Sun) ships receives +1 movement. May replace Antimass Deflectors as a pre-requisite.
+* When using Transfabrication, the total value of the scuttled ship is received as Trade Goods. Also, when producing units at a Space Dock, you may flip another Space Dock on the board to increase to add its production capacity to the current build. Flipped Space Docks may not produce units, but is put back to normal in the Status Phase.  Transfabrication replace Enviro Compensator as a pre-requisite.
+
+##### Race-specific Technologies:
+* Sol Spec Ops Training is replaced with Versatile Combat Tactics: Your
+  Ground Forces gain the Commando ability, and +1 to combat rolls when
+  fighting a greater number of opponents. You may never lose more than 2
+  Ground Forces to bombardment. [Cost: 3]
+* Yin Yin Spinner is replaced with Moyin's GenII Elite: When producing
+  units at a Space Dock, you receive one extra Ground Force that do not
+  count towards production capacity. Your Shock Troops now cost 1
+  resource. [Cost: 5]
+* Muaat Nova Seed is used during the Strategy Phase, and takes effect at
+  the end of the Status Phase. You must have ships in two systems
+  adjacent to the target system, OR ships in the target system.
+* Letnev non-Euclidean Shielding have a cost of 7.
+* Winnu Lazax Gate Folding: When activating Mecatol Rex, any Ground
+  Forces present on Winnu may be moved directly there during the
+  Planetary Landings step. Ground Forces moved this way are immune to
+  PDS fire. [Cost: 3]
+* Saar Chaos-Mapping enables your units to stop in Asteroid Fields, but
+  your ships do not block opponent movement when placed in Asteroid
+  Fields. Opponent Automated Defense Turrets rolls one combat die less.
 
 #### RACES:
 * Saar Floating Factories: Your Space Docks may now retreat and withdraw from Space Battles, and may produce units in the same activation as moving. (exception; may not build when moving out of a system with a flipped CC in place).
@@ -96,6 +131,9 @@ Decide if Imperium Rex will be included in the Objective Deck. (Not recommended)
 * Production secondary may only be used on a single Space Dock.
 * If using Trade (SA); when Trade Agreements are broken as a result of combat, the attacker discards all Trade Goods present on his Trade Contracts, while the defender may collect them for free.
 * Include the Prospect card as long as there are 4, 7 or 8 players in the game. If this number changes during a game, remove the card from play during the next Status Phase.
+
+##### Council Representatives
+Not yet compatible with the Twilight Council game option. It is recommended to to prioritize Twilight Council over the Council Representatives.
 
 #### MISCELLANEOUS CARDS:
 * Friendly Fire: During this combat round, opposing fighters will inflict a hit on their own forces at natural rolls of 1 through 4. May target any fleet, regardless of fighter-to-ship ratio. Play: Just before a combat- round begins. 
