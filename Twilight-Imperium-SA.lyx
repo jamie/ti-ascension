@@ -1,0 +1,7890 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsart
+\begin_preamble
+\usepackage{multicol}
+
+\renewenvironment{description}{\list{}{%
+  \advance\leftmargini3\p@ \itemindent-12\p@
+  \labelwidth\z@ \let\makelabel\descriptionlabel}%
+}{
+  \endlist
+}
+\end_preamble
+\use_default_options true
+\begin_removed_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_removed_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman utopia
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 8
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 0
+\use_esint 0
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.8cm
+\topmargin 1.75cm
+\rightmargin 1cm
+\bottommargin 1.75cm
+\columnsep 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Twilight Imperium Combined Rules
+\end_layout
+
+\begin_layout Standard
+Main source: 
+\color blue
+http://bit.ly/TI-Rules
+\color inherit
+ using both expansions plus updates from FAQ.
+ Assumes all base rule changes and additional Races, Systems, and Action/Politic
+al/Technology/Secret Objective cards are included in the 
+\begin_inset Quotes eld
+\end_inset
+
+standard
+\begin_inset Quotes erd
+\end_inset
+
+ game.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Shattered Ascension rules are in red: 
+\color blue
+http://bit.ly/SA-Rules
+\color red
+ (PDF).
+\end_layout
+
+\begin_layout Section*
+The Object of the Game
+\end_layout
+
+\begin_layout Standard
+To win a game of TWILIGHT IMPERIUM ("TI"), players seek to accumulate Victory
+ Points by achieving objectives and carefully choosing helpful strategies.
+ The game ends when a player reaches a total of 10 Victory Points, during
+ step 1 of the Status Phase.
+\end_layout
+
+\begin_layout Part
+Game Setup
+\end_layout
+
+\begin_layout Enumerate
+Decide how you want to build the galaxy (Standard, Preset, or Scenario)
+ which variant rules you wish to play with:
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+(I) Shattered Ascension
+\begin_inset Newline newline
+\end_inset
+
+
+\color inherit
+(I) Variant Objectives [SE]
+\begin_inset Newline newline
+\end_inset
+
+(I) The Long War
+\begin_inset Newline newline
+\end_inset
+
+(I) Age of Empire
+\begin_inset Newline newline
+\end_inset
+
+(I) Preliminary Objectives [ST]
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+(I) Star by Star [Asc]
+\begin_inset Newline newline
+\end_inset
+
+(II) Surrender [Asc]
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+(II) Simultaneous Action System [Asc]
+\begin_inset Newline newline
+\end_inset
+
+(II) Crimson Suns [Asc]
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+(II) Tactical Retreats [SE]
+\begin_inset Newline newline
+\end_inset
+
+(III) Variant Strategy Cards [SE] [ST] 
+\color red
+[Asc]
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+(IV) Facilities [SE]
+\begin_inset Newline newline
+\end_inset
+
+(IV) Wormhole Nexus [SE]
+\begin_inset Newline newline
+\end_inset
+
+(IV) Distant Suns (territorial, public [SE])
+\begin_inset Newline newline
+\end_inset
+
+(IV) Custodians of Mecatol Rex [SE]
+\begin_inset Newline newline
+\end_inset
+
+(IV) The Final Frontier [ST]
+\begin_inset Newline newline
+\end_inset
+
+(IV) Artifacts [SE]
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+(IV) Dimension Rifts [Asc]
+\begin_inset Newline newline
+\end_inset
+
+
+\color inherit
+(V) Sabotage Runs
+\begin_inset Newline newline
+\end_inset
+
+(V) Shock Troops [SE]
+\begin_inset Newline newline
+\end_inset
+
+(V) Space Mines [SE]
+\begin_inset Newline newline
+\end_inset
+
+(V) Mechanized Units [ST]
+\begin_inset Newline newline
+\end_inset
+
+(V) Flagships [ST]
+\begin_inset Newline newline
+\end_inset
+
+(V) Mercenaries [ST]
+\begin_inset Newline newline
+\end_inset
+
+(V) Leaders
+\begin_inset Newline newline
+\end_inset
+
+(VI) Race-Specific Technologies [SE] [ST]
+\begin_inset Newline newline
+\end_inset
+
+(VII) Voice of the Council [SE]
+\begin_inset Newline newline
+\end_inset
+
+(VII) Political Intrigue [ST]
+\begin_inset Newline newline
+\end_inset
+
+__ Simulated Early Turns [SE]
+\begin_inset Newline newline
+\end_inset
+
+__ Fall of the Empire [ST]
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+__ 2-Player Games [Asc]
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+__ Twilight Council [Asc]
+\end_layout
+
+\begin_layout Enumerate
+Randomly assign each player a race.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+The Common Play Area
+\emph default
+ - The following should be placed in the common play area, viewable by all
+ players:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The Action and Political decks, individually shuffled.
+\end_layout
+
+\begin_layout Enumerate
+Various counters and tokens (Trade Goods, supplemental Fighters/Ground Forces,
+ Space Mines, etc).
+\end_layout
+
+\begin_layout Enumerate
+The 8 Strategy Cards side-by-side in numerical order with their "active"
+ side up.
+\end_layout
+
+\begin_layout Enumerate
+The Victory Point Track, with one Control Marker for each player in the
+ space marked "0."
+\end_layout
+
+\begin_layout Enumerate
+The (neutral) Planet Cards.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Objectives
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prepare the Objective Deck and include it in the Common Play Area.
+ (See the 
+\begin_inset Quotes eld
+\end_inset
+
+Objectives
+\begin_inset Quotes erd
+\end_inset
+
+ section below.)
+\end_layout
+
+\begin_layout Enumerate
+Deal a random Secret Objective to every player.
+\end_layout
+
+\begin_layout Enumerate
+Return 
+\emph on
+all
+\emph default
+ unused Objective Cards to the box, sight unseen.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Randomly assign one player the Speaker token.
+\end_layout
+
+\begin_layout Enumerate
+Create the game board (see next section).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Player Setup
+\emph default
+ - Each player takes the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The Race Sheet, Racial Technology Cards, Trade Cards, Command Counters and
+ Control Markers for their Race.
+\end_layout
+
+\begin_layout Enumerate
+The plastic units and Technology Deck of an available color.
+\end_layout
+
+\begin_layout Enumerate
+The Planet Cards corresponding to their Home System planets.
+\end_layout
+
+\begin_layout Standard
+They then put the following into play:
+\end_layout
+
+\begin_layout Enumerate
+The starting Technologies listed on their Race Sheet.
+\end_layout
+
+\begin_layout Enumerate
+The Initial Units listed on their Race Sheet, placed in their Home System.
+\end_layout
+
+\begin_layout Enumerate
+8 Command Counters, placed 2/3/3 for Strategy, Fleet Supply, and Command
+ Pool.
+\end_layout
+
+\begin_layout Enumerate
+2 Political Cards if playing with the Assembly (II) variant Strategy Card
+ 
+\color red
+(or Twilight Council)
+\color inherit
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The first Strategy Phase now begins.
+\end_layout
+
+\begin_layout Section*
+
+\color red
+Variant: Shattered Ascension
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Shattered Ascension is a set of homebrew rules modifications with many years
+ of playtesting behind them.
+ It is recommended that all Shattered Ascension rules be used, rather than
+ only some.
+ Additionally, the people behind it don't have fond opinions of the Shards
+ of the Empire expansion, and none of the SA rules take it into account.
+ That might change in the next year or two.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+As this is intended to be a unified rule set, Shattered Ascension changes
+ are included in-line with the regular rules, and will affect everything
+ from technology, to units, to cards, to racial abilities....
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Finally, game setup proceeds a little differently for SA games, as follows:
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Roll a die to determine setup Turn Order.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Before assigning Races, deal two Secret Objective cards to each player.
+ One of these must be discarded before the Player Setup step of setup, 
+\emph on
+after
+\emph default
+ any hidden races are revealed.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Instead of randomly assigning Races, in play order each player may select
+ a Race or pass.
+ If they pass, after all other players have chosen a race they receive one
+ at random and may keep it hidden until the Player Setup step of setup.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Instead of building an Objective Deck, simply shuffle the individual Objective
+ Card decks, drawing Objectives as needed.
+ (Shattered Empire decks with additional SA cards included is recommended.)
+ Begin by revealing the top three Stage I objectives, and once there are
+ 8 Stage I objectives on the board begin revealing Stage II objectives.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+After creating the galaxy, players bid on where they would like their starting
+ galaxy, rather than having them predetermined.
+ Each player then receives the difference between their bid and the highest
+ bid in Trade Goods.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Don't assign the Speaker at random.
+ After creating the galaxy, players bid for the Speaker Token, in reverse
+ Turn Order.
+ The winning bidder is assigned Speaker and all other players receive that
+ player's bid in Trade Goods.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+After creating the galaxy, after Home System and Speaker bidding wars are
+ complete each player draws/discards the same number of Trade Good tokens,
+ such that the player with the lowest amount starts with 1 Trade Good.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Before Player Setup, players with hidden races reveal them, and players
+ must discard one of their Secret Objectives.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+After the Player Setup phase is complete, the Speaker may set the orientation
+ of the Rotation Cycler, after which the first Strategy Phase begins.
+\end_layout
+
+\begin_layout Section*
+Objectives
+\end_layout
+
+\begin_layout Standard
+The Objective Cards are the primary way for players to receive victory points.
+ Each Objective card contains a requirement and a victory point award for
+ meeting that requirement.
+ During the first step of the Status Phase, players may qualify for the
+ requirements of 
+\emph on
+one (no more)
+\emph default
+ revealed Public Objective Card in order to receive the corresponding victory
+ points.
+ Additionally, each player may qualify for their Secret Objective Card at
+ this time.
+\end_layout
+
+\begin_layout Standard
+Some Objective Cards state 
+\begin_inset Quotes eld
+\end_inset
+
+Now I...
+\begin_inset Quotes erd
+\end_inset
+
+ to specify that the player fulfil the requrement during the first step
+ of the Status Phase.
+\end_layout
+
+\begin_layout Standard
+A player may only receive victory points from any given Objective Card only
+ once per game.
+ After collecting victory points, as a reminder, the player should place
+ one of his Control Markers on the card.
+\end_layout
+
+\begin_layout Subsection*
+The Public Objective Deck
+\end_layout
+
+\begin_layout Standard
+The Public Objective deck is constructed in two steps: Shuffle 3 (4 if playing
+ with the Bureaucracy variant Strategy Card) random Stage II objectives
+ together with the 
+\noun on
+Imperium Rex
+\noun default
+ objective, then shuffle 6 random Stage I objectives together, and place
+ on top of the Stage II cards.
+\end_layout
+
+\begin_layout Standard
+This deck is placed in the common play area, and the first Objective Card
+ is drawn before play begins.
+\end_layout
+
+\begin_layout Subsection*
+Option: Variant Objectives
+\end_layout
+
+\begin_layout Standard
+The Shattered Empire expansion comes with an alternate deck of Public Objectives
+ that encorage more conflict than the original Objective decks.
+ Players should use either the original or Shattered public objective cards,
+ and not mix them.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Ascension includes 12 extra public objectives.
+ These should be mixed with 
+\emph on
+both
+\emph default
+ the base and Shattered public objectives.
+\end_layout
+
+\begin_layout Subsection*
+Option: The Long War
+\end_layout
+
+\begin_layout Standard
+When constructing the Public Objective Deck, use two extra cards from each
+ of Stage I and II, and play to 14 Victory Points rather than 10.
+ Optionally, for a more consistent (and slightly longer) game duration replace
+ the Imperium Rex card with an additional random Stage II card, ending the
+ game after the Status Phase after the last card is drawn.
+\end_layout
+
+\begin_layout Subsection*
+Option: Age of Empire
+\end_layout
+
+\begin_layout Standard
+After step 4, deal out the Objective Deck in a line.
+ After drawing Imperium Rex, stop drawing.
+ During the game, players may qualify for the victory points of 
+\emph on
+any
+\emph default
+ of the revealed Objective Cards.
+ No additioanl cards will enter the game.
+ After the Status Phase of the first round, place a 
+\noun on
+Turn token
+\noun default
+ on the leftmost card.
+ After each subsequent Status Phase, move the Turn token one card to the
+ right.
+ When the Turn token moves onto Imperium Rex, the game ends immediately.
+\end_layout
+
+\begin_layout Standard
+Players may not qualify for Stage II objectives during the first three rounds
+ of play.
+\end_layout
+
+\begin_layout Subsection*
+Secret Objectives
+\end_layout
+
+\begin_layout Standard
+At the beginning of the game, each player receives a Secret Objective card.
+ A player is not allowed to show other players this card until he is able
+ to meet its objectives during the first step of the Status Phase.
+ A player who reveals their Secret Objective Card early 
+\emph on
+loses his Secret Objective Card.
+\end_layout
+
+\begin_layout Standard
+Shattered Empire comes with additional Secret Objectives that should be
+ shuffled into the base deck.
+\end_layout
+
+\begin_layout Subsection*
+Option: Preliminary Objectives
+\end_layout
+
+\begin_layout Standard
+The Shards expansion comes with a deck of 10 Preliminary Objectives, which
+ are easier, less valuable secret objectives.
+ When playing with these, deal one to each player during game setup 
+\emph on
+instead of
+\emph default
+ the regular Secret Objectives.
+ After a player claims their Preliminary Objective, they then draw a Secret
+ Objective from the deck.
+\end_layout
+
+\begin_layout Subsection*
+Special Objectives
+\end_layout
+
+\begin_layout Standard
+When playing with the Artifacts or Voice of the Council options, additional
+ Objective cards may be available.
+ These objectives are revealed from the beginning of the game, and may only
+ be claimed by one player at a time, and the player losing the objective
+ also loses the associated victory points.
+\end_layout
+
+\begin_layout Section*
+Galaxy Setup
+\end_layout
+
+\begin_layout Enumerate
+Place the Mecatol Rex system in the middle of the table.
+\end_layout
+
+\begin_layout Enumerate
+Create three piles of systems: Special (red-bordered), Empty (no planets),
+ and Regular.
+ Shuffle together the systems specified in the previous section for the
+ number of people playing.
+ Deal these systems out to the players.
+\end_layout
+
+\begin_layout Enumerate
+Starting with the Speaker and continuing clockwise 
+\color red
+(in Turn Order)
+\color inherit
+, players place their home system about two feet away from Mecatol Rex in
+ an appropriate home system location.
+\end_layout
+
+\begin_layout Enumerate
+In order, players each place one of their systems in the galaxy.
+ Remember to keep space for Home Systems.
+ After each player has placed a system, the order of play reverses.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The following rules apply to placing systems:
+\end_layout
+
+\begin_layout Itemize
+Each ring surrounding Mecatol Rex must be filled before systems may be placed
+ in the next ring.
+\end_layout
+
+\begin_layout Itemize
+You may not place a Special System (with an inner red border) adjacent to
+ another Special System, unless you have no other option.
+ 
+\end_layout
+
+\begin_layout Itemize
+If you placed a system that did not contain a planet during your last placement,
+ you must, if able, place a system that does contain a planet during this
+ placement.
+ If you are unable to do so, you must reveal your remaining systems to the
+ other players to prove this.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+If a player does not receive one planet-containing system per ring in the
+ galaxy, reshuffle and re-deal.
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+\color red
+Option: Star by Star
+\noun default
+ - Players may choose to keep Home Systems in their hand and place them
+ (hidden) as regular systems.
+ Order of placement does not alternate.
+ Home Systems may not be placed adjacent to each other, and the preceeding
+ restriction on planet-free systems is lifted.
+ The Custodians of Mecatol Rex must be in play, and may be doubled in strength.
+\begin_inset Newline newline
+\end_inset
+
+No home system may be activated by an enemy during the first round, Muaat
+ must be placed in the outside ring, and the players sitting at your left
+ and right are considered your neighbors, regardless of proximity.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Options: Set up Distant Suns and Artifacts.
+\end_layout
+
+\begin_layout Section*
+Galaxy Layouts
+\end_layout
+
+\begin_layout Standard
+With 6 players, a Home System is located at each corner at the edge of the
+ galaxy.
+ With other numbers of players, the position of Home Systems will differ
+ as diagrammed.
+ Yellow hexes indicate Home Systems, numbers indicate bonus TG given to
+ the player starting there.
+\end_layout
+
+\begin_layout Standard
+For step 2 of Galaxy Setup, select the following systems:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+3 Players
+\emph default
+: 3 Special, 5 Empty, 16 Regular
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+4 Players
+\emph default
+: 4 Special, 8 Empty, 20 Regular
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+5 Players
+\emph default
+: 4 Special, 8 Empty, 20 Regular, remove 1
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+5 Players [L]
+\emph default
+: 9 Special, 12 Empty, 34 Regular
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+5 Players [S]
+\emph default
+: 4 Special, 7 Empty, 16 Regular, remove 3
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+5 Players [LS]
+\emph default
+: 8 Special, 10 Empty, 28 Regular, remove 1
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+6 Players
+\emph default
+ 
+\emph on
+[L]
+\emph default
+: 9 Special, 12 Empty, 34 Regular, remove 1
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+6 Players
+\emph default
+: 4 Special, 8 Empty, 20 Regular, remove 2
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+7 Players:
+\emph default
+ 9 Special, 12 Empty, 34 Regular, remove 4
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+8 Players:
+\emph default
+ 9 Special, 12 Empty, 34 Regular, remove 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align left
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename gfx/3p.eps
+	lyxscale 33
+	width 1.8cm
+
+\end_inset
+
+ 
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename gfx/4p.eps
+	lyxscale 33
+	width 1.8cm
+
+\end_inset
+
+ 
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename gfx/5p.eps
+	lyxscale 33
+	width 1.8cm
+
+\end_inset
+
+ 
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename gfx/5px.eps
+	lyxscale 33
+	width 1.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename gfx/5pL.eps
+	lyxscale 33
+	height 2.3cm
+
+\end_inset
+
+ 
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename gfx/7p.eps
+	lyxscale 33
+	height 2.3cm
+
+\end_inset
+
+ 
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename gfx/8p.eps
+	lyxscale 33
+	height 2.3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[L] Large galaxies can support 5-8 players.
+ With 5 or 6 players, decide ahead of time if home systems should be placed
+ in the 3rd or 4th ring out from Mecatol Rex - both have interesting tactical
+ considerations.
+\end_layout
+
+\begin_layout Standard
+Due to imbalances in spacing, in 5 and 7 player games some players should
+ be awarded additional Trade Goods at the start of the game, as indicated
+ by the number on the corresponding Home System space.
+ 
+\end_layout
+
+\begin_layout Standard
+[S] Five Players may be accomodated more fairly by using a pie-shaped galaxy.
+ In these maps the systems connected by lines are considered adjacent for
+ all purposes and no players receive additional Trade Goods due to their
+ starting location.
+\end_layout
+
+\begin_layout Standard
+In a 3 and 4 player game, after each player has chosen a Strategy Card in
+ the Strategy Phase, they should each choose another.
+ Players must play a Strategic Action for each of their Strategy Cards,
+ and may play them in any order.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+In a 4 or 8 player game, include the ninth 
+\begin_inset Quotes eld
+\end_inset
+
+Prospect
+\begin_inset Quotes erd
+\end_inset
+
+ Strategy Card.
+ It may also be used in a 7-player game to leave the optimal 2 Strategy
+ Cards with bonus counters.
+ If players have been eliminated such that more than 2 Strategy Cards are
+ being unpicked each turn, remove Prospect from the game.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+The Game Round
+\end_layout
+
+\begin_layout Standard
+The game proceeds through a number of Rounds, each consisting of three Phases.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Turn Order
+\emph default
+ is decided according to the player's selected Strategy Card, from lowest
+ to highest.
+ If a player has more than one Strategy Card, only the lowest card is counted.
+ If players to not have Strategy Cards, the order of play starts with the
+ Speaker and proceeds clockwise 
+\color red
+(in rotation order)
+\color inherit
+.
+
+\color red
+ The rotation order is indicated by the Rotation Cycler (clockwise or anti-clock
+wise).
+ See the Bureaucracy Strategy Card to flip the Rotation Cycler.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Strategy Phase
+\emph default
+: Select Strategy Cards
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Action Phase
+\emph default
+: In turn order, players may choose one of the following actions.
+ Players continue making actions until everyone has passed.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Strategic Action
+\end_layout
+
+\begin_layout Enumerate
+Tactical Action
+\end_layout
+
+\begin_layout Enumerate
+Transfer Action
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Simultaneous Action
+\end_layout
+
+\begin_layout Enumerate
+Pass
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Status Phase
+\emph default
+: Gain victory points, and reset the board for the next Game Round.
+\end_layout
+
+\begin_layout Section*
+Winning And Losing
+\end_layout
+
+\begin_layout Subsection*
+Victory
+\end_layout
+
+\begin_layout Standard
+When a player advances his Control Marker to the end of the Victory Point
+ Track, he wins, even if another player could match or surpass that VP total
+ later in the order of play.
+\end_layout
+
+\begin_layout Standard
+If the 
+\noun on
+Imperium Rex
+\noun default
+ objective card is drawn, the game ends 
+\emph on
+immediately
+\emph default
+ (no further effects of the Imperial Strategy Card are resolved) and the
+ win goes to the player with the highest VP count.
+ In case of a tie, the winner is the player with the greater number of claimed
+ Objective Cards, planets, unused Command CCs, and finally total CCs on
+ their race sheet.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Victory may only take place after step (a) of the Status Phase, or if 
+\noun on
+Imperium Rex
+\noun default
+ is drawn.
+\end_layout
+
+\begin_layout Subsection*
+Elimination
+\end_layout
+
+\begin_layout Standard
+A player who controls no planets and has no units on the board is eliminated
+ from the game.
+ All of their cards are discarded, all Trade Agreements are broken, and
+ the eliminated player may no longer affect the game.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+Option: Surrender
+\end_layout
+
+\begin_layout Standard
+
+\color red
+After having passed, a player may surrender.
+ They immediately remove their flag from any Special Objectives and subtract
+ those VP plus one additional from their score.
+ Trade Agreements are kept until elimination.
+ If the surrendering player was Speaker, the Speaker Token moves in the
+ direction of the cycler.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+After refreshing planets in the Status Phase:
+\end_layout
+
+\begin_layout Standard
+
+\color red
+1.
+ Remove all of the surrendered player's Leaders, and Space Docks outside
+ his Home System.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+2.
+ Add up to three, but to a total of no more than five, Ground Forces on
+ the planet of highest resource value in their Home System.
+ These passive forces will defend only.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+3.
+ The Speaker then chooses a planet (other than the passive HS planet) or
+ fleet belonging to the surrendered player.
+ In turns, players will place bids, in influence, on ownership of the selected
+ fleet or planet.
+ Only the winning bid is paid for.
+ Planets are transferred refreshed.
+ The next player may then choose the next planet/fleet and bidding repeats.
+ Repeat this step until all ships and planets (except the passive HS planet)
+ are taken over by opponents.
+ Bids of 0 are allowed, and may be the only way to claim the last of the
+ surrendered player's things.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+After all the surrendered player's assets are transferred, double-check
+ that all fleets on the board are still legal (fleet size, and total plastic
+ limit).
+\end_layout
+
+\begin_layout Section*
+The Strategy Phase
+\end_layout
+
+\begin_layout Standard
+Players select a Strategy Card in turn order.
+ If there are 4 or fewer players, each player then selects a second SC in
+ reverse order.
+\end_layout
+
+\begin_layout Standard
+Place a Bonus Counter on each unchosen SC.
+ A player selecting an SC with Bonus Counter(s) on it receive either a Trade
+ Good or a Command Counter for each Bonus Counter.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The player with the most VP receives a number of Trade Goods equal to the
+ difference in VP to the player in second.
+\end_layout
+
+\begin_layout Section*
+The Action Phase
+\end_layout
+
+\begin_layout Subsection*
+The Strategic Action
+\end_layout
+
+\begin_layout Standard
+Select a Strategy Card.
+ You resolve the Primary Ability on that card.
+ Afterward, in rotation order, the other players may elect to resolve the
+ Secondary Ability on the card.
+ Then flip the SC over to indicate it has been used.
+\end_layout
+
+\begin_layout Subsection*
+The Tactical Action
+\end_layout
+
+\begin_layout Enumerate
+Activate a system
+\begin_inset Newline newline
+\end_inset
+
+Begin the Tactical Action by placing a Command CC on the system you wish
+ to activate.
+ You may not activate a system containing one of 
+\emph on
+your
+\emph default
+ CCs.
+\end_layout
+
+\begin_layout Enumerate
+Move ships into the system
+\begin_inset Newline newline
+\end_inset
+
+You may now move friendly ships into the activated system.
+ Ships that are out of movement range, need to pass through a system containing
+ enemy units, or are in a system already activated may not move.
+ Any ship moving 
+\emph on
+must
+\emph default
+ end its movement in the activated system.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Cargo
+\emph default
+ units must be accompanied in movement by ships with 
+\emph on
+capacity
+\emph default
+ to support them.
+ During movement, additional cargo may be picked up (but never dropped off).
+\begin_inset Newline newline
+\end_inset
+
+If ships have entered a system containing enemy Space Mines, the mines now
+ activate.
+\end_layout
+
+\begin_layout Enumerate
+PDS fire
+\begin_inset Newline newline
+\end_inset
+
+After you have finished moving, enemy PDS in range may fire at your fleet
+ in the system.
+ Then, any of your PDS in range may fire at enemy ships in the system.
+\end_layout
+
+\begin_layout Enumerate
+Space Battle
+\begin_inset Newline newline
+\end_inset
+
+If the system now contains ships belonging to more than one player, a Space
+ Battle occurs.
+\end_layout
+
+\begin_layout Enumerate
+Planetary Landings
+\begin_inset Newline newline
+\end_inset
+
+You may now commence Planetary Landings by landing GF and PDS units onto
+ planets in the activated system.
+\begin_inset Newline newline
+\end_inset
+
+If a system contains multiple planets, you may split your landing forces
+ between them in any way you see fit, but may not change your mind after
+ this step.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Friendly Landing: A player lands units on a planet already under his control.
+\end_layout
+
+\begin_layout Itemize
+Neutral Landing: A player lands units on a neutral planet.
+ After landing 
+\emph on
+at least one Ground Force
+\emph default
+ on the neutral planet, the active player takes the corresponding Planet
+ Card from the Planet Deck and places it, exhausted, in his play area.
+\end_layout
+
+\begin_layout Itemize
+Hostile Landing (Invasion): A player lands units on a planet containing
+ one or more of an enemy player’s Ground Force units.
+ This will result in an Invasion Combat during the Invasion Combat step.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Invasion Combat
+\begin_inset Newline newline
+\end_inset
+
+If any planet contains Ground Forces belonging to more than one player,
+ Invasion Combat occurs.
+ If multiple Invasion Combats occur, you decide the order in which they
+ are resolved.
+\end_layout
+
+\begin_layout Enumerate
+Produce Units
+\begin_inset Newline newline
+\end_inset
+
+You may now produce units and build Space Docks, if able.
+\end_layout
+
+\begin_layout Subsection*
+The Transfer Action
+\end_layout
+
+\begin_layout Enumerate
+Activate two systems
+\begin_inset Newline newline
+\end_inset
+
+Begin the Transfer Action by placing a Command CC in one system, and a second
+ CC from your Reinforcements in an adjacent system.
+\begin_inset Newline newline
+\end_inset
+
+Both systems must contain at least one of your units, absolutely no enemy
+ units, and must not already contain one of your CCs.
+\end_layout
+
+\begin_layout Enumerate
+Movement
+\begin_inset Newline newline
+\end_inset
+
+You may now move ships between the two activated systems.
+ As during a Tactical Action, 
+\emph on
+cargo
+\emph default
+ units must be transported by other ships.
+\end_layout
+
+\begin_layout Enumerate
+PDS Fire
+\begin_inset Newline newline
+\end_inset
+
+Enemy PDS in range may now fire at your fleets in the activated systems.
+ PDS units may only shoot once.
+\end_layout
+
+\begin_layout Enumerate
+Planetary Landings
+\begin_inset Newline newline
+\end_inset
+
+As per the Tactical Action, but only Friendly Landings may be performed.
+\end_layout
+
+\begin_layout Enumerate
+Produce Units
+\begin_inset Newline newline
+\end_inset
+
+Select one of the systems, you may now produce units and build Space Docks
+ there, if able.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+Option: The Simultaneous Action
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Players may decide to use the following generalization of the Transfer Action,
+ based on the standard Tactical Action.
+ The Tactical Action is modified as follows:
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Step 1: You may activate any number of systems normally, spending Command
+ CCs with one bonus CC from your reinforcements.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Step 2: Move ships as normal, into any of the activated systems.
+ Be careful not to exceed movement limits.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Step 3: When 
+\emph on
+enemy
+\emph default
+ PDS fire, they each only get one shot (even if they could affect two activated
+ systems).
+\end_layout
+
+\begin_layout Standard
+
+\color red
+If the active player moves ships that result in a Space Battle, or wishes
+ to engage in Planetary Landings or Produce Units, they must pay an additional
+ CC from the Command Pool for each such system.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Note that if only performing the actions in the Transfer Action, playing
+ it as a Simultaneous Action will cost more CCs.
+ However, playing it as a Simultaneous Action allows for more actions (active
+ player PDS fire, combat, hostile landings).
+\end_layout
+
+\begin_layout Subsection*
+Passing
+\end_layout
+
+\begin_layout Standard
+As long as a player has no remaining active Strategy Cards, they may choose
+ to pass.
+ After passing, they may not perform any other Actions this round - if their
+ turn comes up again they automatically continue to Pass.
+ 
+\emph on
+Note: Players may still execute the Secondary Ability of other players'
+ Strategy Cards after passing.
+\end_layout
+
+\begin_layout Section*
+The Status Phase
+\end_layout
+
+\begin_layout Standard
+During the Status Phase, players may qualify for objectives, and prepare
+ for the next Game Round.
+\end_layout
+
+\begin_layout Enumerate
+Qualify for Public/Secret Objectives
+\begin_inset Newline newline
+\end_inset
+
+In order of play, each player may qualify for 
+\emph on
+one
+\emph default
+ Public Objective, their Secret Objective, and any number of Special Objectives.
+ To do so, he must prove to his opponents that his claim is valid (revealing
+ his Secret Objective Card if necessary).
+ After doing so, he places a Control Marker on the claimed Objective Card
+ and advances his Control Marker on the Victory Point Track the appropriate
+ number of spaces.
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+Objective Cards that say 
+\begin_inset Quotes eld
+\end_inset
+
+I win the game
+\begin_inset Quotes erd
+\end_inset
+
+ are considered to be worth as many VP as needed to win the game.
+ E.g.
+ in a game to 10 VP, these objectives are worth 10 VP.
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+A player may only achieve a given Objective once, and may only claim objectives
+ if they control all planets in their Home System.
+\end_layout
+
+\begin_layout Enumerate
+Repair Damaged Ships
+\end_layout
+
+\begin_layout Enumerate
+Remove Command Counters from the board to the reinforcements pile.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Produce Trade Goods, receiving 1 TG for every 2 resources spent.
+\end_layout
+
+\begin_layout Enumerate
+Refresh Planet Cards
+\end_layout
+
+\begin_layout Enumerate
+Income: 
+\color red
+1 Political Card, 
+\color inherit
+1 Action Card, and 2 Command Counters.
+
+\color red
+ Players may discard two Political Cards and draw a new one any number of
+ times.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\color red
+Option: Crimson Suns
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+Players may Declare War on opponents by spending 2 Influence.
+\begin_inset Newline newline
+\end_inset
+
+When you attack a player you have a War Declaration on, after the battle
+ you receive 1/2 (round down) the value of your destroyed ships in Trade
+ Goods.
+ When you defend against a player you have a War Declaration on, after the
+ battle you receive 1/4 (round down) the value of your destroyed ships in
+ Trade Goods.
+\begin_inset Newline newline
+\end_inset
+
+Declaring War immediately breaks Trade Agreements, and accepting a Trade
+ Agreement breaks the War Declaration.
+ You may only have two War Declarations active at a time.
+\end_layout
+
+\begin_layout Enumerate
+Redistribute Command Areas
+\begin_inset Newline newline
+\end_inset
+
+Players may redistribute the Command Counters on their Race Sheet between
+ the three pools.
+\end_layout
+
+\begin_layout Enumerate
+Return Strategy Cards
+\end_layout
+
+\begin_layout Section*
+Combat
+\end_layout
+
+\begin_layout Subsection*
+Space Battles
+\end_layout
+
+\begin_layout Standard
+After movement, if a system contains ships belonging to two players, a Space
+ Battle must be fought.
+ Before beginning combat, resolve any pre-combat effects (Anti-Fighter Barrages,
+ Sabotage Runs, racial abilities, technology, action cards), and then remove
+ casualties for all of those.
+ The defender chooses the order pre-combat effects are resolved in, remembering
+ that Sabotage Runs must occur after any Anti-Fighter Barrage casualties
+ are removed.
+
+\color red
+ Rather, resolve Anti-Fighter Barrages, then all other effects at once.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Next, repeat the following steps until one player no longer has ships in
+ the system.
+\end_layout
+
+\begin_layout Enumerate
+Announce Withdrawls/Retreats
+\begin_inset Newline newline
+\end_inset
+
+Players may announce their intention to leave the contested system.
+ If the attacker decides to withdrawl, the defender may not retreat.
+\end_layout
+
+\begin_layout Enumerate
+Roll Combat Dice
+\begin_inset Newline newline
+\end_inset
+
+Each ship rolls appropriate combat dice for their ships.
+\end_layout
+
+\begin_layout Enumerate
+Remove Casualties
+\begin_inset Newline newline
+\end_inset
+
+Players apply hits rolled by their opponent in the previous step to their
+ ships.
+\end_layout
+
+\begin_layout Enumerate
+Execute Withdrawls/Retreats
+\begin_inset Newline newline
+\end_inset
+
+If a withdrawl/retreat was announced during step 1, that player now executes
+ that action.
+\begin_inset Newline newline
+\end_inset
+
+When executing a withdrawal or retreat, a player must withdraw his entire
+ fleet to 
+\emph on
+an adjacent system that has previously been activated by that player and
+ contains no enemy ships.
+
+\emph default
+ If a player has no previously activated systems adjacent to the contested
+ system, he may not withdraw or retreat.
+ 
+\begin_inset Newline newline
+\end_inset
+
+After a successful withdrawal or retreat, make sure that the withdrawing/retreat
+ing player is still in compliance with his Fleet Supply (see rules for Fleet
+ Supply on page 21) and has sufficient Fighter capacity (see the Fighter
+ units description on page 29) in the new system.
+ If not, he must immediately destroy the excess ships.
+\end_layout
+
+\begin_layout Subsection*
+Option: Tactical Retreats
+\end_layout
+
+\begin_layout Standard
+When announcing a retreat, the defender may spend a Strategy CC to activate
+ an adjacent, unactivated system that contains no enemy units.
+ At the end of the combat round, he must retreat to this system.
+
+\color red
+ If the defending fleet is destroyed before it can retreat return the Command
+ Counter to the player's Strategy Allocation, it is not lost.
+\end_layout
+
+\begin_layout Subsection*
+Invasion Combat
+\end_layout
+
+\begin_layout Standard
+After a Planetary Landing, if a planet contains units belonging to two players,
+ Invasion Combat occurs.
+ Before beginning combat, resolve and remove any casualties from X-89 Bacterial
+ Weapon (tech), Bombardments, and 
+\emph on
+defending
+\emph default
+ PDS fire (one shot each), in that order.
+ Then resolve any other pre-combat actions from other sources, in defender's
+ choice of order.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Next, repeat the following steps until one player no longer has Ground Forces
+ remaining.
+\end_layout
+
+\begin_layout Enumerate
+Roll Combat Dice
+\begin_inset Newline newline
+\end_inset
+
+Each Ground force rolls their combat dice.
+\end_layout
+
+\begin_layout Enumerate
+Remove Casualties
+\begin_inset Newline newline
+\end_inset
+
+Players apply hits rolled by their opponent in the previous step to their
+ own forces.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If at least one attacking Ground Force is present after combat is complete,
+ the invasion is a success.
+ All defending PDS units and any Space Dock on the planet are immediately
+ destroyed.
+ The attacking player then claims the Planet Card from the previous owner
+ and places it, exhausted, into his play area.
+\end_layout
+
+\begin_layout Standard
+If all attacking GF are destroyed, also destroy any accompanying PDS.
+\end_layout
+
+\begin_layout Standard
+If both players lose all GFs in the same combat round, the defender places
+ a Control Marker on the planet, defendin PDS and Space Docks remain.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+The Play Area
+\end_layout
+
+\begin_layout Standard
+Each player has a play area centered around their Race Sheet.
+ In addition, there is a common play area in a central location containing
+ the Victory Point track, un-chosen Strategy Cards, unclaimed Planet Cards,
+ the Political and Action decks, and supplemental tokens.
+\end_layout
+
+\begin_layout Section*
+Strategy Cards
+\end_layout
+
+\begin_layout Standard
+During the Strategy Phase, players choose between eight Strategy Cards to
+ play during their turns.
+ Details of the Strategy Cards are provided in the appendices.
+\end_layout
+
+\begin_layout Standard
+The eight Strategy Cards are Initiative, Diplomacy, Political, Logistics,
+ Trade, Warfare, Technology, and Imperial.
+\end_layout
+
+\begin_layout Subsection*
+Option: Variant Imperial Strategy Card
+\end_layout
+
+\begin_layout Standard
+The Imperial II Strategy Card provides fewer guaranteed Victory Points,
+ but allows a player to claim multiple Public Objectives this round.
+\end_layout
+
+\begin_layout Standard
+When playing with Imperial II, you must play with the optional Age of Empire
+ rule.
+\end_layout
+
+\begin_layout Subsection*
+Option: Variant Strategy Cards
+\end_layout
+
+\begin_layout Standard
+Replace all 8 original Strategy Cards with the following: Leadership, Diplomacy
+ II, Assembly, Production, Trade II, Warfare II, Technology II, and Bureaucracy.
+\end_layout
+
+\begin_layout Standard
+Strategy Cards ending in a roman numeral are affected by all abilities and
+ cards that would affect the original.
+ If an Action or Political Card refers to a Strategy Card not in play, discard
+ it and draw a replacement.
+\end_layout
+
+\begin_layout Standard
+Optionally, players may want to mix and match Strategy Cards from either
+ the original or this new set, by replacing cards with the same name (ie,
+ Diplomacy, Trade, Warfare, or Technology only).
+\end_layout
+
+\begin_layout Subsection*
+Option: More Variant Strategy Cards
+\end_layout
+
+\begin_layout Standard
+When playing with the optional Political Intrigue rule, substitute the Political
+ or Assembly Strategy Card with Political II or Assembly II.
+\end_layout
+
+\begin_layout Standard
+When playing with the optional Mercenaries rules, substitute Trade or Trade
+ II with Trade III.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+Option: Even More Variant Strategy Cards
+\end_layout
+
+\begin_layout Standard
+
+\color red
+When playing with 4 or 8 players, include a ninth Strategy Card, Prospect,
+ which leaves additional choice for the player selecting the last Strategy
+ Card.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Ascension includes rules for alternate Political/Assembly and Trade strategy
+ cards, but the Political Intrigue and Mercenaries rules are an improvement
+ on those, so they are not included here.
+\end_layout
+
+\begin_layout Section*
+The Reinforcements
+\end_layout
+
+\begin_layout Standard
+Any ships, command counters, or other items belonging to a player but not
+ in play are considered to be in your Reinforcements.
+\end_layout
+
+\begin_layout Section*
+Command Counters
+\end_layout
+
+\begin_layout Standard
+At the start of the game, players are each provided with a total of 16 Command
+ Counters 
+\color red
+(or 24, see Part IV Unit Limitations)
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+Whenever a player receives a Command Counter from their reinforcements,
+ they must immediately place it on their Race Sheet in one of the three
+ following areas.
+ Once placed, they may only be moved during the Status Phase (Step 6).
+ When spending or otherwise using a Command Counter, the counter must be
+ removed from the Race Sheet and returned to the Reinforcements.
+\end_layout
+
+\begin_layout Subsection*
+Fleet
+\begin_inset space ~
+\end_inset
+
+Supply
+\end_layout
+
+\begin_layout Standard
+The number of ships in any system (not including supported Fighters) may
+ never exceed the number of Command Counters in a player's Fleet Supply.
+ If for any reason the number of ships in a system exceeds the Fleet Supply,
+ the owner of the ships must immediately remove enough ships from the system
+ to become compliant.
+ 
+\color red
+Additionally, players may have no more than 4x their Fleet Supply in play
+ overall, but may have a minimum of 20 ships regardless of their Fleet Supply.
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+Note that there is no limit to the number of active fleets on the board,
+ so long as each fleet does not exceed the Fleet Supply limit.
+\color red
+
+\begin_inset Newline newline
+\end_inset
+
+A player must pay one resource during the Strategy Phase for each point
+ of Fleet Supply over 8.
+\end_layout
+
+\begin_layout Subsection*
+Command
+\begin_inset space ~
+\end_inset
+
+Pool
+\end_layout
+
+\begin_layout Standard
+After a player decides to take a Tactical or Transfer Action during the
+ Action Phase, he must take an available Command Counter from his Command
+ Pool in order to activate a system on the board.
+ If a player has no Command Counters remaining in his Command Pool, he is
+ not able to take Tactical or Transfer Actions.
+ In other words, the number of Command Counters in a player's Command Pool
+ dic- tates the amount of activity he can initiate on the board.
+\end_layout
+
+\begin_layout Subsection*
+Strategy
+\begin_inset space ~
+\end_inset
+
+Allocation 
+\end_layout
+
+\begin_layout Standard
+Generally, Command Counters in the Strategy Allocation area are spent to
+ execute the Secondary Abilities of Strategy Cards.
+ Some races have special abilities and some Action Cards require their players
+ to spend Command Counters from their Strategy Allocation area for other
+ effects.
+\end_layout
+
+\begin_layout Section*
+Action Cards
+\end_layout
+
+\begin_layout Standard
+As players come into possession of Action Cards, they should remain secret.
+ A player is limited to 7 Action Cards, and should 
+\emph on
+immediately
+\emph default
+ discard one upon drawing an 8th.
+\end_layout
+
+\begin_layout Standard
+Action Cards each specify the specific times they may be played.
+ A player may never play two identical Action Cards for an identical effect
+ during one round.
+ Some Action Cards read 
+\begin_inset Quotes eld
+\end_inset
+
+Play: as an Action.
+\begin_inset Quotes erd
+\end_inset
+
+ These cards are played during the Action Phase instead of taking a regular
+ action.
+ The actions listed on the card 
+\emph on
+must
+\emph default
+ be taken.
+\end_layout
+
+\begin_layout Standard
+To play an Action Card, place it in front of you and declare that you are
+ playing it.
+ Except for cards played 
+\begin_inset Quotes eld
+\end_inset
+
+when a card is played,
+\begin_inset Quotes erd
+\end_inset
+
+ cards are resolved in the order they are declared.
+\end_layout
+
+\begin_layout Standard
+A player does not need to announce playing Sabotage ahead of time.
+ The Sabotage card is simply played and resolved immediately.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+For the purposes of Action Cards, a Home system only counts as such if the
+ race of origin controls it.
+\end_layout
+
+\begin_layout Section*
+Political Cards
+\end_layout
+
+\begin_layout Standard
+If playing with the Assembly variant Strategy Card, players will accumulate
+ a hand of Political Cards, which should remain secret.
+ A player is limited to 5 
+\color red
+(7)
+\color inherit
+ Political Cards, and should 
+\emph on
+immediately
+\emph default
+ discard one upon drawing another.
+\end_layout
+
+\begin_layout Standard
+Every Political Card contains an agenda that requires a vote in the Galactic
+ Council.
+ As the first step in convening the Council, the active player reads aloud
+ the Political Card in question and makes it clear what kind of vote is
+ about to be cast.
+ There are two types of agenda votes: 
+\begin_inset Quotes eld
+\end_inset
+
+Elect
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+For or Against.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+See the section below on Politics for more information on playing Political
+ Cards.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Political Cards may not be spent as Trade Goods.
+\end_layout
+
+\begin_layout Section*
+Planet Cards
+\end_layout
+
+\begin_layout Standard
+When a player successfully invades a planet (neutral or enemy), he immediately
+ claims its corresponding Planet Card, exhausted.
+\end_layout
+
+\begin_layout Standard
+The planet card indicates the Resources (used to purchase units and technology)
+ and Influence (used to acquire Command Counters, play certain Action Cards,
+ and vote in the Galactic Council) provided by the planet, as well as any
+ technology specialty or refresh ability.
+\end_layout
+
+\begin_layout Standard
+Planet Cards should be kept face up when refreshed, and face down when exhausted.
+\end_layout
+
+\begin_layout Standard
+See the section below on The Galaxy for more information about Planets.
+\end_layout
+
+\begin_layout Section*
+Trade Goods
+\end_layout
+
+\begin_layout Standard
+Players may spend Trade Good counters as a substitute for spending either
+ one resource or one influence.
+ Players are allowed to give other players Trade Goods at any time, which
+ also makes them a flexible currency with which to bribe, pay, or assist
+ other players economically.
+\end_layout
+
+\begin_layout Standard
+See the section below on Trade for more information on acquiring Trade Goods.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+There is an unlimited supply of Trade Goods.
+ If you run out of tokens find a substitute.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+The Galaxy
+\end_layout
+
+\begin_layout Section*
+Planets
+\end_layout
+
+\begin_layout Standard
+The real points of interest in the TI galaxy are its planets.
+ Each planet is printed with its resource value, influence value, and possibly
+ a technology specialty.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Spending Resources and Influence
+\end_layout
+
+\begin_layout Standard
+Throughout a game of TI, you will need to spend both resources and influence
+ for many different purposes.
+ Both are provided by the planets under your control.
+\end_layout
+
+\begin_layout Subsubsection*
+Exhausting Planets
+\end_layout
+
+\begin_layout Standard
+Whenever you want to spend influence or resources, you must 
+\emph on
+exhaust
+\emph default
+ one of your Planet Cards by turning it face down.
+ This provides you with the resources 
+\emph on
+or
+\emph default
+ influence listed on the planet card.
+ Once exhausted, a Planet Card cannot be used for anything else until it
+ is 
+\emph on
+refreshed
+\emph default
+ in the Status Phase (or by another effect).
+\end_layout
+
+\begin_layout Subsubsection*
+Paying Costs
+\end_layout
+
+\begin_layout Standard
+Whenever a player wishes to spend resources or influence, they simply announce
+ the total amount they wish to spend, and then exhaust Planet Cards which
+ provide a combined total of that amount (or greater).
+ Any spare resources or influence provided by an exhausted Planet Card are
+ lost.
+\end_layout
+
+\begin_layout Subsection*
+Technology Specialty
+\end_layout
+
+\begin_layout Standard
+Technology specialties represent a certain local knowledge or a natural
+ resource important to a specific area of science.
+ This provides the owner of the planet with a discount resource towards
+ purchasing advances of that technology type, provided the planet is unexhausted.
+ A handful of planets contain a Yellow (general) Technology specialty.
+ This specialty works like the red, green, and blue specialties except that
+ the yellow specialty does 
+\emph on
+not
+\emph default
+ count for the purpose of fulfilling objectives.
+\end_layout
+
+\begin_layout Subsection*
+Refresh Abilities
+\end_layout
+
+\begin_layout Standard
+Some planets have Refresh abilities that may be used during the Status Phase.
+ Immediately after refreshing planet cards, the planet's owner may exhaust
+ it to gain the benefit listed on the planet card.
+ Refresh abilities may provide 2 Trade Goods, 2 Ground Forces, 2 Shock Troops,
+ or 2 Fighters.
+ Abilities that produce units must place those units on the planet that
+ produced them.
+\end_layout
+
+\begin_layout Subsection*
+Trade Stations
+\end_layout
+
+\begin_layout Standard
+Two regular systems contain Trade Stations.
+ These trade stations have Refresh abilities that provide Trade Goods.
+ Distant Suns domain tokens are never placed on Trade Stations.
+ Ground Forces, Space Docks, and PDSs may not be placed on Trade Stations.
+\end_layout
+
+\begin_layout Standard
+Trade stations may never be invaded.
+ Instead, whenever a player has ships in a system with no opposing ships,
+ he immediately places his control marker on the station and gains control
+ of the station's planet card, exhausted.
+ Capturing a Trade Station from an opponent does not break trade agreements.
+\end_layout
+
+\begin_layout Standard
+Aside from the above exceptions, Trade Stations are still considered planets
+ for the sake of abilities and other cards that target planets.
+\end_layout
+
+\begin_layout Subsection*
+Option: Facilities
+\end_layout
+
+\begin_layout Standard
+A player may build facilities during the Produce Units step of a Tactical
+ Action.
+ 
+\emph on
+Colonies
+\emph default
+ increase the influence of a planet by 1, while 
+\emph on
+Refineries
+\emph default
+ increase the resource value by 1.
+ Facilities are built following the same rules as Space Docks, and may only
+ be bult on a planet that you have controlled for the entire game round.
+ A player may not build a facility if an opponent has ships in the system
+ or if there are no more Facility Cars of the chosen type remaining.
+\end_layout
+
+\begin_layout Standard
+Building a Facility costs 1 
+\color red
+(0)
+\color inherit
+ resource
+\color red
+, and may only be built on an unexhausted planet
+\color inherit
+.
+ Building a facility exhausts the planet.
+\end_layout
+
+\begin_layout Standard
+A planet may only have one facility built, and if the planet is successfully
+ invaded the facility is immediately destroyed, unless it is 
+\emph on
+captured
+\emph default
+ by and Agent or Shock Troop (same rules as capturing a space dock).
+\end_layout
+
+\begin_layout Section*
+Systems
+\end_layout
+
+\begin_layout Subsection*
+Home Systems (Yellow Border)
+\end_layout
+
+\begin_layout Standard
+These represent the starting systems for each of the 10 great races.
+ At the beginning of the game players randomly draw one of these systems
+ to determine which race they will play.
+
+\color red
+ For the purpose of Action Cards, a Home System is only considered as such
+ if the race of origin controls it.
+\end_layout
+
+\begin_layout Standard
+The Ghosts of Creuss hae two separate Home Systems connected via a 
+\begin_inset Quotes eld
+\end_inset
+
+D
+\begin_inset Quotes erd
+\end_inset
+
+ Wormhole.
+ Both of these systems are considered Home Systems for the purposes of card
+ and game effects.
+ During Setup, the Ghosts of Creuss only place the hexagonal tile in the
+ galaxy, and all his starting units must be placed in the system containing
+ the planet Creuss.
+\end_layout
+
+\begin_layout Subsection*
+Regular Systems
+\end_layout
+
+\begin_layout Standard
+Regular systems are either empty, or contain one or more planets.
+ Some regular systems also contain an end of either the Alpha or Beta Wormhole.
+ Although considered a regular system, the Mecatol Rex system always forms
+ the center of the galaxy and is never randomly distributed during galaxy
+ creation.
+\end_layout
+
+\begin_layout Subsection*
+Wormholes
+\end_layout
+
+\begin_layout Standard
+Systems with similar wormholes are considered to be adjacent to each other
+ for the purposes of 
+\emph on
+movement
+\emph default
+ only, including a Transfer Action.
+ PDS with Deep Space Cannon technology may not fire through a wormhole,
+ and action cards affecting adjacent systems cannot cross wormholes.
+ If only one of a particular wormhole is in play, it has no function and
+ is ignored.
+\end_layout
+
+\begin_layout Subsection*
+Option: The Wormhole Nexus
+\end_layout
+
+\begin_layout Standard
+The Wormhole Nexus is a unique system outside the known galaxy.
+ This tile is placed off the board, and a player may travel to it solely
+ by wormhole.
+ It is treated like any other system, but is considered adjacent to every
+ system containing either an Alpha or Beta wormhole.
+ The Wormhole Nexus does not need to be controlled to fulfil the 
+\begin_inset Quotes eld
+\end_inset
+
+Keeper of Gates
+\begin_inset Quotes erd
+\end_inset
+
+ Special Objective, though it does make it easier.
+\end_layout
+
+\begin_layout Subsection*
+Special Systems (Red Border)
+\end_layout
+
+\begin_layout Subsubsection*
+Asteroid Field
+\end_layout
+
+\begin_layout Standard
+A player's ships may not move through an Asteroid Field unless that player
+ has gained the Anti-mass Deflector technology.
+ If a player does have the required technology, he may move his ships 
+\emph on
+through
+\emph default
+ an Asteroid Field, but it is never possible by any means for a ship to
+ end its movement in an Asteroid Field.
+ An Asteroid Field may never be activated.
+\end_layout
+
+\begin_layout Subsubsection*
+Gravity Rift
+\end_layout
+
+\begin_layout Standard
+Ships may move into and through a Gravity Rift.
+ When a ship moves out of (or through) a Gravity Rift, its owner must roll
+ a die.
+ On a roll of 1-5, the ship is destroyed.
+ Multiple ships must roll individually, and if a Carrier is destroyed in
+ this way all units it is carrying are destroyed as well.
+\end_layout
+
+\begin_layout Subsubsection*
+Ion Storm
+\end_layout
+
+\begin_layout Standard
+Ships may never move 
+\emph on
+through
+\emph default
+ an Ion Storm, only into or out of the storm.
+ PDS cannons may never be fired at ships inside an Ion Storm.
+ Fighters do not roll any dice during combat inside an Ion Storm, but may
+ still be taken as casualties.
+\end_layout
+
+\begin_layout Subsubsection*
+Nebula
+\end_layout
+
+\begin_layout Standard
+A Fleet defending a Nebula receives +1 to its combat rolls during any space
+ battle here.
+ Ships can never move 
+\emph on
+through
+\emph default
+ a Nebula, but can move 
+\emph on
+into
+\emph default
+ a Nebula via normal activation.
+ A ship 
+\emph on
+leaving
+\emph default
+ a Nebula 
+\emph on
+always
+\emph default
+ has its movement reduced to 1.
+\end_layout
+
+\begin_layout Subsubsection*
+Supernova
+\end_layout
+
+\begin_layout Standard
+These fiery dying stars are incredibly dangerous and absolutely impassible.
+ A Supernova may never be activated.
+\end_layout
+
+\begin_layout Section*
+Domain Counters
+\end_layout
+
+\begin_layout Standard
+A summary of all [Space] Domain Counters is available from Board Game Geek
+ at 
+\color blue
+http://boardgamegeek.com/filepage/71169
+\end_layout
+
+\begin_layout Subsection*
+Option: Distant Suns
+\end_layout
+
+\begin_layout Standard
+After the game board has been created, but before the game begins, randomize
+ the Domain Counters and place one on every neutral planet on the board
+ (ie, not including Mecatol Rex or any Home System).
+ Return the remaining counters to the box, sight unseen.
+ After a player has landed Ground Forces during a Planetary Landing, reveal
+ and resolve the token.
+ Any units spawned from a Domain Counter are treated like regular units
+ in respect to all combat
+\color red
+ (and other: bombard, capture, etc)
+\color inherit
+ rules.
+ If a player gains control of a planet in any other way, the Domain Counter
+ is ignored and returned to the box.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Probing
+\emph default
+: Immediately after the movement step of a Tactical Action (not a Transfer)
+ the active player may choose to probe Domain Counters in the activated
+ system as long as they have at least one Fighter in the system.
+ If probing, the player may secretly look at the face of every Domain Counter
+ in the system and then return the counters to their respective planets.
+ A player may 
+\emph on
+not
+\emph default
+ land Ground Forces on a planet during the same activation in which he probed
+ the planet.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color red
+Quick Probing
+\emph default
+: Distribute all available fighters to planets being probed.
+ Immediately before Planetary Landings, roll one die for each fighter, if
+ at least one 8+ is rolled the planet is successfully probed.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color red
+Deep Space Probing
+\emph default
+: During the Strategy Phase, each player may probe one planet in a system
+ adjacent to (or in the same system as) each of their Space Docks.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color red
+Native Knowledge
+\emph default
+: Before the game starts, all players may secretly look at any one Domain
+ Counter.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Razing
+\emph default
+: At the start of a Planetary Landing, a War Sun or Dreadnought may choose
+ to raze a 
+\emph on
+face down
+\emph default
+ Domain Counter.
+ The active player then returns the counter to the box.
+ A given ship may only raze once per activation and may not Bombard in that
+ same activation.
+ After razing a Domain Counter, the active player must roll a die.
+ On an 8-10, the active player loses 3 random Action Cards.
+ Additionally, on a 10, the active player must exhaust all his planets.
+\end_layout
+
+\begin_layout Subsection*
+Option: Territorial Distant Suns
+\end_layout
+
+\begin_layout Standard
+For a slightly less dangerous galaxy, make two piles out of the Domain Counters.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Low-risk
+\begin_inset Quotes erd
+\end_inset
+
+ Domain counters (Peaceful Annexation, Natural Wealth (2), Native Intelligence,
+ Hostile Locals (1), Biohazard, Hostange Situation, Fighter Ambush (1),
+ and Settlers) are shuffled and placed on systems adjacent to Home Systems.
+ After those systems are filled, 
+\emph on
+all
+\emph default
+ remaining Domain Counters are shuffled together and distributed.
+\end_layout
+
+\begin_layout Subsection*
+Option: Public Distant Suns
+\end_layout
+
+\begin_layout Standard
+Play with all Domain Counters revealed.
+\end_layout
+
+\begin_layout Standard
+When using a preset scenario, randomly distribute Domain Counteres to all
+ planets before Home System bidding starts.
+\end_layout
+
+\begin_layout Standard
+When building a galaxy, players in turn order draw a random Domain Counter
+ and place it face up on any (non-home-system) planet on the board until
+ all planets have one.
+\end_layout
+
+\begin_layout Subsection*
+Option: Custodians of Mecatol Rex
+\end_layout
+
+\begin_layout Standard
+Place the two grey/red Domain Counters on Mecatol Rex.
+ They are treated like regular Domain Counters.
+
+\color red
+ If playing with the Star By Star option, you may choose to double the strength
+ of the Custodians.
+\end_layout
+
+\begin_layout Subsection*
+Option: The Final Frontier
+\end_layout
+
+\begin_layout Standard
+After the game board has been created, but before the game begins, randomize
+ the Space Domain Counters (without a planet on their back) and place one
+ face down in each Empty System (no planets, no red border).
+ An empty system's Space Domain Counter is revealed and resolved after all
+ moving units have ended their movement in that system.
+ The Final Frontier does not require that Distant Suns be played as well.
+\end_layout
+
+\begin_layout Section*
+Option: Artifacts
+\end_layout
+
+\begin_layout Standard
+Artifacts are worth 1 Victory Point to the player that controls the planet
+ the artifact is on.
+ Artifacts may never be moved.
+\end_layout
+
+\begin_layout Standard
+At the start of the game, each player selects a planet.
+ Players may not choose Mecatol Rex, any Home System, any system adjacent
+ to a Home System, or a planet in a system containing another chosen planet.
+ Then, place one randomly selected artifact token face down on each of the
+ planets.
+\end_layout
+
+\begin_layout Standard
+When a player gains control of a planet that contains a facedown artifact
+ token, the artifact is immediately turned face up.
+ If the token is blank (a 
+\begin_inset Quotes eld
+\end_inset
+
+dummy
+\begin_inset Quotes erd
+\end_inset
+
+ artifact) it is removed from the board 
+\color red
+and that player receives 2 Trade Goods
+\color inherit
+.
+ Otherwise, that player immediately claims the corresponding Special Objective
+ Card and gains a victory point.
+\end_layout
+
+\begin_layout Standard
+If the player loses control of the planet with the Artifact, he immediately
+ loses the Objective Card and 1 victory point.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Artifacts also count as a Technology Specialty of their color, and provide
+ their discount even if the planet is exhausted.
+ A Scientist provides an additional point of discount as usual, but the
+ artifact does 
+\emph on
+not
+\emph default
+ count toward Objectives based on acquiring Tech Specialties.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+If playing with both Artifacts and the Wormhole Nexus, place an artifact
+ token on Mallice at the beginning of the game.
+\end_layout
+
+\begin_layout Subsection*
+
+\emph on
+\color red
+Option: Dimension Rifts
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Whenever a blank Artifact Token is discovered, draw a random double sided
+ Wormhole Token (if available) and place it in the system.
+ The active player chooses which side faces up.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Whenever a fleet enters such a wormhole, flip the token.
+ Wormholes of this type are ignored for all Objective purposes, but are
+ affected by Political Agendas.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Recommended for constructed galaxies.
+\end_layout
+
+\begin_layout Part
+Technology
+\end_layout
+
+\begin_layout Standard
+Before the game begins, each player is provided an identical deck of Technology
+ advances, and each player starts the game with a few 
+\begin_inset Quotes eld
+\end_inset
+
+Starting Technology
+\begin_inset Quotes erd
+\end_inset
+
+ advances.
+ When a player has acquired a Technology advance, he takes the respective
+ card and places it face up before him in his play area.
+
+\emph on
+ Players may not give each other technology advances.
+\end_layout
+
+\begin_layout Standard
+There are four different technology, each associated with a color: 
+\color red
+Warfare
+\color inherit
+, 
+\color green
+Biotechnology
+\color inherit
+, 
+\color blue
+Propulsion
+\color inherit
+, and 
+\color yellow
+General
+\color inherit
+.
+\end_layout
+
+\begin_layout Subsection*
+Acquiring a Technology Advance
+\end_layout
+
+\begin_layout Standard
+In general, Technology advances are acquired when the Technology Strategy
+ Card is executed during the Action Phase.
+ Most Technology advances have 
+\emph on
+prerequisite technologies
+\emph default
+.
+ Before any Technology advance can be acquired, a player must already have
+ obtained the prerequisite technologies printed on the card.
+\end_layout
+
+\begin_layout Subsection*
+Planetary Technology Specialties
+\end_layout
+
+\begin_layout Standard
+Some planets have a technology specialty.
+ The presence of a technology specialty gives the owner of the planet the
+ ability to purchase a Technology Card of that type for 1 less than its
+ normal cost when executing the secondary ability of the Technology Strategy
+ Card, so long as the planet is not exhausted when purchasing begins.
+ If a player controls multiple planets with specialties, the discounts stack.
+\end_layout
+
+\begin_layout Subsection*
+Option: Race-Specific Tech
+\end_layout
+
+\begin_layout Standard
+Both Shattered Empire and Shards of the Throne include a Race-Specific technolog
+y for each race, available exclusively to them.
+\end_layout
+
+\begin_layout Standard
+These technologies can be researched instead of a regular technology, and
+ cost the usual price for the circumstance plus the number indicated on
+ the card, 
+\color red
+minus the number of VP the race currently possesses.
+ If a race reaches a number of VP equal to the extra cost printed on the
+ technology card before purchasing it, they automatically and immediately
+ acquire it.
+\end_layout
+
+\begin_layout Standard
+The race-specific Technology cards have no pre-requisites, nor do they have
+ a color.
+ They are otherwise treated as normal technologies in all other respects.
+\end_layout
+
+\begin_layout Standard
+For details on individual Race-Specific Tech, see the section below on Races.
+\end_layout
+
+\begin_layout Part
+Trade
+\end_layout
+
+\begin_layout Standard
+At the beginning of the game, each race receives the two Trade Cards belonging
+ to their race.
+ Players should place these cards in their playing area with the Trade Contract
+ side face up.
+\end_layout
+
+\begin_layout Subsection*
+Opening Trade Agreements
+\end_layout
+
+\begin_layout Standard
+The primary ability of the Trade Strategy Card allows players to forge trade
+ agreements.
+ After agreeing to trade, the two players must give the other 
+\emph on
+one
+\emph default
+ of their own Trade Cards.
+ These cards should be placed in their respective playing area with the
+ Trade Agreement side face up.
+\end_layout
+
+\begin_layout Standard
+Before a trade agreement can be completed, the agreement must first be approved
+ by the active player.
+ If approved (and that may take some bribes to the active player), the players
+ may exchange Trade Cards.
+\end_layout
+
+\begin_layout Standard
+Trades may only be involve one Trade Card from each player, and two players
+ may only make one trade agreement with each other.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+In 3- and 4-player games, players may trade one Trade Agreement with themselves.
+ In a 2-player game, players may trade both with themselves.
+\end_layout
+
+\begin_layout Subsection*
+Receiving Trade Goods
+\end_layout
+
+\begin_layout Standard
+Players receive Trade Goods from their Trade Agreements in clockwise order
+ 
+\color red
+(simultaneously)
+\color inherit
+ from the Trade Strategy.
+\end_layout
+
+\begin_layout Standard
+A player receives Trade Goods by simply counting the total trade value of
+ any trade agreements in his play area.
+ The player then takes that number of Trade Goods from the common play area.
+ Note that players are 
+\emph on
+not
+\emph default
+ allowed to collect trade income from trade agreements formed during the
+ same action.
+\end_layout
+
+\begin_layout Subsection*
+Breaking Trade Agreements
+\end_layout
+
+\begin_layout Standard
+Any player involved in a trade agreement may break the agreement during
+ the Status Phase by simply announcing that they are ending the agreement,
+ and returning the Trade Card to its owner in exchange for their own.
+\end_layout
+
+\begin_layout Standard
+If two trading players become involved in a Space Battle or Invasion Combat
+ with each other, any trade agreements are instantly broken.
+\end_layout
+
+\begin_layout Standard
+When executing the primary ability of the Trade Strategy, the active player
+ may choose option 
+\begin_inset Quotes eld
+\end_inset
+
+b
+\begin_inset Quotes erd
+\end_inset
+
+ to break every trade agreement in play.
+ If they choose to do so, all Trade Cards are returned to their owners.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Units
+\end_layout
+
+\begin_layout Standard
+For a detailed summary of unit costs and abilities, see the Appendices.
+\end_layout
+
+\begin_layout Section*
+Producing Units
+\end_layout
+
+\begin_layout Standard
+During the Production step of an Action, a player may build a Space Dock
+ on a planet provided that they have controlled the planet since the beginning
+ of the round, the system does not contain enemy ships, and the planet does
+ not already contain a Space Dock.
+ Additionally, if a Space Dock is already present in the system it may produce
+ units during the Production step.
+\end_layout
+
+\begin_layout Standard
+A Space Dock may only build a 
+\emph on
+number
+\emph default
+ of units (regardless of type or cost) equal to the resource value of its
+ planet, 
+\emph on
+plus two
+\emph default
+.
+ New spaceships are placed directly in space.
+ New Ground Force and PDS units are placed on the planet containing the
+ Space Dock.
+\end_layout
+
+\begin_layout Standard
+If any enemy ships are present in a system, Space Docks in the system are
+ blockaded and are unable to produce ships.
+ They may still produce Ground Forces and PDS on the planet, however.
+\end_layout
+
+\begin_layout Standard
+A player may not produce War Suns until they acquire the War Sun technology
+ advance.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Players may produce one Ground Force and one Fighter for a cost of 1 resource.
+\end_layout
+
+\begin_layout Section*
+Unit Limitations
+\end_layout
+
+\begin_layout Standard
+Players are limited in their unit selection by the number of plastic ships
+ available to them, except for Fighters, Ground Forces, and Shock Troops,
+ which are available in unlimited quantities.
+ If not enough plastic is available for these units, use supplemental counters.
+ Note that there must always be at least one plastic unit with each stack
+ of supplemental counters to denote ownership.
+\end_layout
+
+\begin_layout Standard
+The number of ships (excluding supported Fighters) a player may have in
+ any one system is limited to the number of Command Counters in his Fleet
+ Supply.
+\end_layout
+
+\begin_layout Standard
+During the Status Phase, at any time after Step 1 is complete, players are
+ allowed to destroy any of their own units on the board, placing the units
+ back in their reinforcement pile.
+\end_layout
+
+\begin_layout Standard
+If at any time units are found to be in an illegal arrangement (exceeding
+ Fleet Supply, too many Fighters/GF for Carriers, etc.) the controlling player
+ must immediately remove ships involved in the illegal arrangement until
+ it becomes legal.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+If the extra plastic is available, it is recommended that the additional
+ ships listed in the Available column be added to the available reinforcements
+ for each player to provide for more flexible strategies.
+ If using these additional units, also increase the total number of available
+ Command Counters to 24 (up from 16)
+\end_layout
+
+\begin_layout Standard
+
+\color red
+When these additional ships are available, the following rules also apply:
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+No player may have more ships on the board than 4x their Fleet Supply or
+ 20, whichever is higher.
+ Supported Fighters do not count toward this limit.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Every Strategy Phase, if a player has more than 8 Fleet Supply, they must
+ pay 2 resources for each additional point of Supply, or remove the Supply.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+No more than three (Saar) Space Docks may exist in the same system.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+The number of units required for Objectives does not change.
+\end_layout
+
+\begin_layout Section*
+Scuttling Units
+\end_layout
+
+\begin_layout Standard
+At any time during the Status Phase 
+\emph on
+after objectives are qualified for
+\emph default
+, players are allowed to destroy any of their own units on the board.
+ Scuttled units are simply returned to the player's reinforcement pile and
+ become available for production during the next Action Phase.
+\end_layout
+
+\begin_layout Section*
+Optional Units
+\end_layout
+
+\begin_layout Subsection*
+Option: Shock Troops
+\end_layout
+
+\begin_layout Standard
+Shock Troops are treated as Ground forces for all cards and abilities.
+\end_layout
+
+\begin_layout Standard
+If a Ground Force rolls a 10 in battle, it becomes a Shock Troop at the
+ end of the combat round, after casualties are removed.
+ Additionally, Hope's End and certain Action Cards provide additional means
+ to acquire Shock Troops.
+
+\color red
+ Instead of upgrading on a roll of a 10, after a successful Invasion upgrade
+ one Ground Force to a Shock Troop during the following Production step,
+ if able.
+\end_layout
+
+\begin_layout Standard
+Shock Troops must always be present with at least one friendly plastic Ground
+ Force.
+ If all Ground Forces are destroyed from a stack containing Shock Troops,
+ one Shock Troop must be replaced with a Ground Force unit.
+ When taking casualties 
+\emph on
+during Invasion Combat
+\emph default
+, Shock Troops must be taken as casualties before any Ground Forces.
+\end_layout
+
+\begin_layout Subsection*
+Option: Space Mines
+\end_layout
+
+\begin_layout Standard
+Space Mines do not count as units, and may not be scuttled or targeted by
+ Action Cards or other abilities targeting units.
+\end_layout
+
+\begin_layout Subsection*
+Option: Mechanized Units
+\end_layout
+
+\begin_layout Standard
+Mechanized Units count as Ground Forces in regards to controlling planets,
+ but are otherwise distinct units (for purposes of Action Cards, Technology,
+ etc).
+ They function similarly to Ground Forces for transport/invasion.
+\end_layout
+
+\begin_layout Subsection*
+Option: Flagships
+\end_layout
+
+\begin_layout Standard
+Each race has a unique Flagship that can only be produced 
+\emph on
+in their Home System
+\emph default
+.
+ Flagships have differing costs, movement values, combat strengths, and
+ special abilities, as indicated on the race's flagship card.
+\end_layout
+
+\begin_layout Standard
+A player can only have one Flagship at a time, but may rebuild it if it
+ is destroyed.
+\end_layout
+
+\begin_layout Standard
+For details on individual Flagships, see the section below on Races.
+\end_layout
+
+\begin_layout Section*
+Option: Mercenaries
+\end_layout
+
+\begin_layout Standard
+To play with Mercenaries, use the Trade III Strategy Card.
+\end_layout
+
+\begin_layout Standard
+When executing the primary ability of Trade III, the player may draw two
+ Mercenary Cards from the Mercenary deck, choose one to keep, and place
+ the other on the bottom of the deck.
+ The player then finds the token for their chosen Mercenary and places it
+ 
+\emph on
+Ground side up
+\emph default
+ on any planet he controls.
+ During the primary activation of Trade III, before getting a new mercenary,
+ 
+\emph on
+all
+\emph default
+ players must pay 1 Trade Good for each mercenary they control or discard
+ the Mercenary to the bottom of the deck.
+\end_layout
+
+\begin_layout Standard
+Mercenaries may be either ground units or space units, and their tokens
+ are reversible to denote which they currently are.
+ A Mercenary may only move from ground to space as part of a movement, and
+ may move from space to ground during a Planetary Landing.
+ While in space, Mercenaries count towards fleet supply and may not be carried
+ on other ships.
+\end_layout
+
+\begin_layout Standard
+Mercenaries may not claim planets nor are they considered Ground Forces.
+ Any time a Mercenary is the only unit on a planet, that planet reverts
+ to neutral.
+\end_layout
+
+\begin_layout Standard
+Mercenaries have their combat values, movement, and unique abilities printed
+ on their cards.
+ Any abilities that work during battle may only be used if the Mercenary
+ is 
+\emph on
+participating
+\emph default
+ in the Space Battle or Invasion Combat.
+\end_layout
+
+\begin_layout Standard
+Mercenaries may 
+\emph on
+not
+\emph default
+ transport leaders.
+\end_layout
+
+\begin_layout Section*
+Option: Leaders
+\end_layout
+
+\begin_layout Standard
+Each race has access to 3 Leaders, special units that provide a variety
+ of benefits during the game (see the Appendices for details).
+\end_layout
+
+\begin_layout Standard
+At the beginning of the game, all three of a race's Leaders are placed in
+ their Home System.
+ They generally follow the same placement rules as Ground Forces, but may
+ be transported by 
+\emph on
+any
+\emph default
+ kind of ship.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+For movement purposes, Leaders are considered Ground Forces that take no
+ capacity.
+ Leaders may also be moved freely within their system during your turns,
+ if the system contains no enemy ships.
+
+\color inherit
+ Leaders may only land on a non-friendly planet when accompanied by Ground
+ Forces.
+\end_layout
+
+\begin_layout Standard
+If a ship carrying a Leader is destroyed 
+\emph on
+during a space battle
+\emph default
+, roll a die.
+ The leader is killed on a 1-5, captured on a 9-10, and otherwise escapes
+ and may be placed on any friendly, non-blockaded planet.
+\end_layout
+
+\begin_layout Standard
+If a ship carrying a Leader is destroyed outside of a space battle, the
+ leader is killed.
+\end_layout
+
+\begin_layout Standard
+If a Leader is part of a failed Invasion Combat on an enemy planet, the
+ leader is captured; on a neutral (Distant Suns) planet, the leader is killed
+ 
+\color red
+(escapes)
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+If a Leader is killed in any other fashion by a Domain Counter (Distant
+ Suns) it returns to its Homeworld.
+\end_layout
+
+\begin_layout Standard
+If a Leader is on a planet successfully invaded by the enemy, roll a die.
+ The leader is captured on a 1-5, killed on a 10, and otherwise escapes.
+ If the planet's ownership changes for any other reason, the leader automaticall
+y escapes.
+\end_layout
+
+\begin_layout Subsection*
+Captive Leaders
+\end_layout
+
+\begin_layout Standard
+When capturing a Leader, the captor places the leader token in their playing
+ area.
+\end_layout
+
+\begin_layout Standard
+During the status phase, a captor may choose to keep, execute, or freely
+ transfer ownership of the captive to another player.
+ If a captive leader is returned to its owner, it is freed and immediately
+ placed on any friendly, non-blockaded planet.
+\end_layout
+
+\begin_layout Standard
+Every time a planet is successfully invaded, if the planet was controlled
+ by a player holding 
+\emph on
+any
+\emph default
+ captive Leaders, roll a die: on a 9-10 a captive leader (of the invader's
+ choice, if more than one) has been found by the invader, and captured/freed.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Part
+Politics
+\end_layout
+
+\begin_layout Standard
+During the primary activation of the Political or Assembly Strategy Card,
+ a political card is drawn and the Galactic Council convenes to debate and
+ vote upon its agenda.
+ The active player reads aloud the drawn Political Card and makes it clear
+ what kind of vote is about to be cast:
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Quotes eld
+\end_inset
+
+Elect
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Votes
+\end_layout
+
+\begin_layout Standard
+When a political agenda asks the Galactic Council to elect something or
+ someone, each player may choose who or what to nominate when casting their
+ vote.
+ That player's entire vote is not attributed toward that subject.
+ The subject with the highest number (not necessarily the majority) of the
+ total vote is considered elected.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Quotes eld
+\end_inset
+
+For
+\begin_inset space ~
+\end_inset
+
+or
+\begin_inset space ~
+\end_inset
+
+Against
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Votes
+\end_layout
+
+\begin_layout Standard
+Most agendas ask the Galactic Council to vote for or against a certain agenda.
+ Players indicate their preference 
+\begin_inset Quotes eld
+\end_inset
+
+for
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+against
+\begin_inset Quotes erd
+\end_inset
+
+ when casting their vote.
+\end_layout
+
+\begin_layout Subsection*
+Laws
+\end_layout
+
+\begin_layout Standard
+Some agendas are 
+\begin_inset Quotes eld
+\end_inset
+
+Laws.
+\begin_inset Quotes erd
+\end_inset
+
+ Laws represent 
+\emph on
+permanent
+\emph default
+ changes to the game.
+ After voting, first eneact any 
+\begin_inset Quotes eld
+\end_inset
+
+for
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+against
+\begin_inset Quotes erd
+\end_inset
+
+ effects, and then if the law was voted 
+\begin_inset Quotes eld
+\end_inset
+
+for,
+\begin_inset Quotes erd
+\end_inset
+
+ place the card face up in the common play area.
+\end_layout
+
+\begin_layout Subsection*
+Voting
+\end_layout
+
+\begin_layout Standard
+After the active player has read the agenda out loud, the Galactic Council
+ must resolve the agenda.
+ Players first debate, threaten, lure, or convince each other to vote in
+ their favor.
+ Trade Good counters may be used as bribes, but no promises or agreements
+ are considered binding.
+\end_layout
+
+\begin_layout Standard
+Players then vote upon the agenda.
+ Starting with the player to the left of the speaker, each player casts
+ their vote in turn, or abstain.
+ A player has as many votes as the total combined influence of all his 
+\emph on
+unexhausted
+\emph default
+ planets (or a minimum of 1), and must cast all his votes, or none.
+\end_layout
+
+\begin_layout Standard
+In the case of a tie vote, the player holding the Speaker Token breaks the
+ tie.
+\end_layout
+
+\begin_layout Standard
+Voting does not cause your Planet Cards to exhaust.
+ Trade Good counters cannot be used to gain additional votes.
+\end_layout
+
+\begin_layout Section*
+Option: Voice of the Council
+\end_layout
+
+\begin_layout Standard
+Players who wish to add to the usefulness of influence and Political Cards
+ may wish to use the included Voice of the Council Speical Objective Card.
+\end_layout
+
+\begin_layout Standard
+Before activating the primary ability of the Political or Assembly Strategy
+ Cards, the active player 
+\color red
+(or any other player spending 1 Strategy CC)
+\color inherit
+ 
+\emph on
+may
+\emph default
+ call for a vote to elect a new Voice of the Council.
+ The elected player gains control of the Voice of the Council objective
+ and immediately gains 1 Victory Point, while the previous owner loses 1
+ Victory Point.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The Voice of the Council gains +5 votes at all times.
+\end_layout
+
+\begin_layout Section*
+Option: Political Intrigue
+\end_layout
+
+\begin_layout Standard
+For a more robust political system, play with this option using either the
+ Political II or Assembly II Strategy Card.
+\end_layout
+
+\begin_layout Standard
+During setup, each player receives his race's three Representative Cards,
+ and the five Promissory Note cards matching his color.
+ Players use these cards to represent their race in the Galactic Council
+ and to create binding contracts.
+ In addition, when using the Political II Strategy Card, draw the top two
+ Political Cards during setup and place them faceup in the play area.
+\end_layout
+
+\begin_layout Subsection*
+Council Steps
+\end_layout
+
+\begin_layout Standard
+The Active Player chooses one available Political Card to resolve and all
+ players follow these steps:
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Assembly II
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+The active player draws two Political Cards.
+ Then, they choose a player to resolve one Political Card from his (the
+ chosen player's) hand.
+ Finally, they choose a different player to receive the Speaker Token.
+\end_layout
+
+\begin_layout Enumerate
+Choose Representatives
+\begin_inset Newline newline
+\end_inset
+
+Each player chooses a Representative and plays it facedown in front of him.
+\end_layout
+
+\begin_layout Enumerate
+Resolve Spies
+\begin_inset Newline newline
+\end_inset
+
+Starting with the Speaker and continuing clockwise (in rotation order),
+ each player who chose a Representative with the Spy trait must reveal it
+ and then resolve its special ability.
+ If the ability targets another player's Representative, reveal the target
+ immediately.
+ After all Spies are revealed, reveal all other Representatives.
+\end_layout
+
+\begin_layout Enumerate
+Resolve Bargaining and Promissory Notes
+\begin_inset Newline newline
+\end_inset
+
+Players may now offer Trade Goods or Promissory Notes to convince each other
+ to vote in their favor.
+ 
+\emph on
+Only Promissory Notes are binding.
+\end_layout
+
+\begin_layout Enumerate
+Resolve Voting and Outcome
+\begin_inset Newline newline
+\end_inset
+
+Players now vote upon the agenda as usual.
+ Representatives add their bonus votes (in the top left corner of the card
+ or granted via a special ability) to the player's influence total.
+ If a Representative is assassinated or killed (or a player who has had
+ all three Representatives killed off) does not vote 
+\emph on
+at all
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Political II
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+A new Political Card is drawn to the common play area to replace the one
+ chosen during this Council.
+\end_layout
+
+\begin_layout Subsection*
+Representatives
+\end_layout
+
+\begin_layout Standard
+All representatives have a number of bonus votes (in the top-left corner
+ of the card) added to a player's total votes for the current agenda.
+\end_layout
+
+\begin_layout Description
+Spies are revealed before other Representatives, and resolve their abilities
+ during the Resolve Spies step.
+ Spies target other Representatives with assassinations and other game effects.
+\end_layout
+
+\begin_layout Description
+Bodyguards cannot be assassinated, and sometimes have certain effects when
+ targeted by a spy.
+\end_layout
+
+\begin_layout Description
+Councilors generally have more bonus votes than Spies or Bodyguards, but
+ are more susceptible to certain cards and abilities.
+\end_layout
+
+\begin_layout Standard
+When a Representative is assassinated (or otherwise killed by other game
+ effects), he is removed from the game.
+\end_layout
+
+\begin_layout Subsection*
+Promissory Notes
+\end_layout
+
+\begin_layout Standard
+During Political Intrigue, players have a chance to offer other players
+ Promissory Notes.
+ Each player may only offer one Promissory Note per Political Card.
+ If a player accepts a Promissory Note, he is bound to vote as was agreed
+ upon with the player offering the note.
+ A player does not reveal the note to other players (although he may talk
+ about what he received).
+\end_layout
+
+\begin_layout Standard
+Each Promissory Note has a binding 
+\begin_inset Quotes eld
+\end_inset
+
+favor
+\begin_inset Quotes erd
+\end_inset
+
+ for the player that offered the Note to fulfil.
+ The favor must be fulfilled by the offering player at any time the receiving
+ player decides to play the note.
+ Starting with the Speaker, each player follows these steps to offer a Promissor
+y Note:
+\end_layout
+
+\begin_layout Enumerate
+The player may offer one note face down to another player and ask him to
+ vote a specific way for this Political Card.
+\end_layout
+
+\begin_layout Enumerate
+The receiving player looks at the note and either agrees to vote in that
+ way and keeps the card, or refuses and returns the note to the offering
+ player.
+ Players may also make additional agreements along with the giving of Promissory
+ Notes, but these verbal agreements are not binding.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Appendix 1: Units
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="6">
+<features tabularvalignment="middle">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="4cm">
+<row>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avail.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Battle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mv
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abilities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Space Docks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\color red
++1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacity (3 Fighter), Produce Ships, Limit (1)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ground Forces
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1/2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Ground Unit, Supplement, Planetary Control
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Shock Troops
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Ground Unit, Invasion Capture
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Mech.
+ Units
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6(x2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Ground Unit, Sustain (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PDS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\color red
++3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Ground Unit, Planetary Shield, Space Cannon, Limit (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carriers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\color red
++4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacity (6)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fighters
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1/2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Sabotage Runs, Supplement
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cruisers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\color red
++4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Deploy Space Mines
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Destroyers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\color red
++7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anti-Fighter Barrage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dreadnoughts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\color red
++2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\color red
+(x2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bombard (
+\color red
+Merciless
+\color inherit
+), 
+\color red
+Large Ship (2)
+\color inherit
+,
+\color red
+ Strong Attack (2)
+\color inherit
+, Sustain (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+War Suns
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\color red
++1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3(x3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bombard (Merciless, Strong), Capacity (6), 
+\color red
+Large
+\begin_inset space ~
+\end_inset
+
+Ship
+\begin_inset space ~
+\end_inset
+
+(3)
+\color inherit
+, Strong Attack (3), Sustain (2)
+\color red
+(3)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Flagship
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Varies by race
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Mercenaries
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stats vary, Evasion (*)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Space Mines
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Space Mine Attack, 
+\color red
+Limit (1)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Leaders
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cargo, Ground Unit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Anti-Fighter
+\begin_inset space ~
+\end_inset
+
+Barrage Before a Space Battle begins, roll two combat dice for each Destroyer.
+ For each hit, the opponent destroys one Fighter.
+\end_layout
+
+\begin_layout Description
+Bombard Before an Invasion Combat, each ship may roll combat dice at a contested
+ planet, each hit destroys a defending Ground Force.
+ Ships may only bombard once per Activation Sequence, if invading more than
+ one planet the player must decide how to distribute his bombardments.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Merciless
+\emph default
+ ships may bombard without invading.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+Strong
+\emph default
+ ships may bombard planets with PDS.
+\begin_inset Newline newline
+\end_inset
+
+If a non-Home System planet without defending Ground Forces is bombarded
+\color red
+, or if bombarding destroys all defending Ground Forces
+\color inherit
+, the bombarding player may choose to have it revert to neutral status.
+\end_layout
+
+\begin_layout Description
+Capacity Provides support for the specified units.
+ When moving, supported units move with the ship.
+ Unless otherwise specified, may support Fighters, Ground Forces, and PDS.
+ If the unit is destroyed any carried GF or PDS are destroyed, but Fighters
+ may attempt to find other capacity in the system (or they will be destroyed
+ as well).
+\begin_inset Newline newline
+\end_inset
+
+A ship may pick up additional units as it moves provided that the system
+ has not previously been activated 
+\color red
+(it may even contain enemy ships)
+\color inherit
+.
+\end_layout
+
+\begin_layout Description
+Cargo This unit may be transported by a ship with Capacity for it.
+\end_layout
+
+\begin_layout Description
+Deploy
+\begin_inset space ~
+\end_inset
+
+Space
+\begin_inset space ~
+\end_inset
+
+Mines During Production, a Cruiser may deploy Space Mines by paying a resource
+ cost of 2.
+ Only one Space Mine may be deployed per activation.
+ 
+\color red
+A system may only contain one Space Mine.
+\end_layout
+
+\begin_layout Description
+Evasion When assigning combat hits to this unit, roll a die.
+ A roll of X or higher means the unit ignores the hit.
+ Before multiple hits can be assigned to this unit, all other units present
+ in the combat must receive hits (multiple hits, if the unit has Sustain
+ Damage).
+\end_layout
+
+\begin_layout Description
+Ground
+\begin_inset space ~
+\end_inset
+
+Unit This unit must either be present on a planet or a ship with Capacity.
+ It cannot normally move on its own.
+ Does not take part in any combat while transported.
+ Must be produced directly on the planet.
+\begin_inset Newline newline
+\end_inset
+
+Ground Units may only be unloaded from a ship in a Planetary Landing, or
+ when being transferred to another ship with Capacity for them.
+\end_layout
+
+\begin_layout Description
+Invasion
+\begin_inset space ~
+\end_inset
+
+Capture After a successful invasion, if at least one Shock Troop has survived
+ the battle, the invading player may capture enemy Space Dock and PDS units
+ on a planet, rather than destroying them.
+\color red
+
+\begin_inset Newline newline
+\end_inset
+
+Instead of automatic captures, assign a number of Shock Troops as commandos
+ before the first round of an Invasion Combat.
+ These do not participate in the combat and cannot be taken as casualties,
+ but if the Invasion is successful they each capture 1 PDS/Facility/Space
+ Dock rather than destroy it.
+ All commandos are destroyed in case of failed invasion.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Large
+\begin_inset space ~
+\end_inset
+
+Ship The ship counts as the specified number of units towards all production
+ limits.
+\end_layout
+
+\begin_layout Description
+Limit A planet may contain at most the specified number of this unit.
+\end_layout
+
+\begin_layout Description
+Planetary
+\begin_inset space ~
+\end_inset
+
+Control To gain control of a planet, a player must successfully land at
+ least one Ground Force unit.
+ If all Ground Force units voluntarily leave the planet, use a Control Marker
+ to indicate its ownership.
+\end_layout
+
+\begin_layout Description
+Planetary
+\begin_inset space ~
+\end_inset
+
+Shield A PDS unit present on a planet 
+\emph on
+typically
+\emph default
+ prevents it from being Bombarded.
+ War Suns and certain Technology advances circumvent this protection.
+\end_layout
+
+\begin_layout Description
+Sabotage
+\begin_inset space ~
+\end_inset
+
+Run Before Space Combat, players may commit a number of Fighters to attempt
+ to destroy a War Sun.
+ Roll a die for each fighter, on a 1-8 destroy it.
+ For each surviving Fighter roll a die, on a 1-9 destroy it, on a 10 destroy
+ the War Sun.
+\end_layout
+
+\begin_layout Description
+Space
+\begin_inset space ~
+\end_inset
+
+Cannon A PDS unit can shoot into space to destroy nearby enemy ships and
+ invading Ground forces.
+ The basic range of a PDS is the system it is in, but the 
+\noun on
+Deep Space Cannon
+\noun default
+ upgrade allows it to shoot one system away.
+ It may only fire while on a planet.
+ It may shoot at enemy ships in a system you activate or the 
+\emph on
+active player's
+\emph default
+ ships if they activate a system within range after ships have moved during
+ an activation.
+ It may shoot at invading Ground Forces a single time before Invasion Combat
+ begins.
+ Casualties from PDS fire are removed immediately, and to not receive return
+ fire.
+\end_layout
+
+\begin_layout Description
+Space
+\begin_inset space ~
+\end_inset
+
+Mine
+\begin_inset space ~
+\end_inset
+
+Attack After 
+\color red
+(before)
+\color inherit
+ the PDS Fire step of an activation where a player moves ships into a system
+ containing an opponent's space mines, he must roll 1 die for each non-Fighter
+ ship entering the system.
+ For each 9 or 10, the ship is immediately hit.
+ 
+\color red
+A player may negate a Space Mine hit by taking two hits to non-Fighter ships
+ in the same fleet.
+
+\color inherit
+ After this attack, remove the Space Mine.
+ If multiple Space Mines are present in a system only one activates, the
+ active player chooses which one.
+\end_layout
+
+\begin_layout Description
+Strong
+\begin_inset space ~
+\end_inset
+
+Attack A ship with a Strong Attack rolls the specified number of combat
+ dice during space battles and bombardments.
+\end_layout
+
+\begin_layout Description
+Supplement Fighters and Ground Forces are available in a near-unlimited
+ supply.
+ If a player runs out of plastic pieces for these units, simply use supplemental
+ tokens to represent the extra.
+ The only restriction is that each stack of supplemental tokens must contain
+ at least one plastic piece to accompany them.
+\end_layout
+
+\begin_layout Description
+Sustain The unit has the specified amount of health.
+ Each combat hit reduces available health by 1, and the ship is destroyed
+ when it reaches 0 health.
+ Ships are restored to full health during the Status Phase.
+
+\color red
+ For each point of damage Sustained, a unit's Strong Attack is reduced by
+ 1, to a minimum of 1.
+\end_layout
+
+\begin_layout Section*
+Leaders
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/leader/MiniLeader-Scientist.eps
+	lyxscale 60
+	height 1em
+
+\end_inset
+
+ Scientist
+\end_layout
+
+\begin_layout Standard
+[Planet] Increase technology specialty bonus by 1.
+ Build Space Dock here for 2 resource.
+ +1 to PDS fire.
+ Prevents all bombardment with PDS.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/leader/MiniLeader-Diplomat.eps
+	lyxscale 60
+	height 1em
+
+\end_inset
+
+ Diplomat
+\end_layout
+
+\begin_layout Standard
+[Planet] Delay 
+\color red
+(all actions of)
+\color inherit
+ impending invasion by one game round
+\color red
+ unless enemy pays 10 influence (Diplomat 
+\emph on
+escapes
+\emph default
+)
+\color inherit
+.
+ Planet may not be protected again until 2 Status Phases pass.
+\end_layout
+
+\begin_layout Standard
+[Fleet] May move through systems containing an opponent's ships, if permission
+ granted.
+ 
+\color red
+May allow enemy fleets to pass through system.
+ May allow enemy fleets to retreat before Space Battles (does not break
+ Trade Agreements).
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/leader/MiniLeader-General.eps
+	lyxscale 60
+	height 1em
+
+\end_inset
+
+ General
+\end_layout
+
+\begin_layout Standard
+[Invasion Combat] When attacking, may re-roll two dice every combat round.
+ Defending, all GF combat rolls +1.
+ 
+\color red
+(General 
+\emph on
+always 
+\emph default
+receives 
+\emph on
+both
+\emph default
+ bonuses.)
+\end_layout
+
+\begin_layout Standard
+[Planet] Enemy bombards at -4.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/leader/MiniLeader-Admiral.eps
+	lyxscale 60
+	height 1em
+
+\end_inset
+
+ Admiral
+\end_layout
+
+\begin_layout Standard
+[Fleet] Ship carrying Admiral gets +1 combat die in Space Combat.
+ On a Dreadnought, +1 movement.
+ Enemy fleet may not retreat unless it also has an Admiral.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/leader/MiniLeader-Agent.eps
+	lyxscale 60
+	height 1em
+
+\end_inset
+
+ Agent
+\end_layout
+
+\begin_layout Standard
+[Invasion Combat] When attacking, enemy PDS may not fire.
+ If successful, 
+\emph on
+Invasion Capture
+\emph default
+ rules (above) apply.
+\end_layout
+
+\begin_layout Standard
+An Agent may be sacrificed at any time to act as a 
+\begin_inset Quotes eld
+\end_inset
+
+Sabotage
+\begin_inset Quotes erd
+\end_inset
+
+ Action Card, cancelling the effects of another player's Action Card.
+
+\color red
+ Instead, an Agent may 
+\begin_inset Quotes eld
+\end_inset
+
+Sabotage
+\begin_inset Quotes erd
+\end_inset
+
+ any action card that affects their present system.
+ Doing so, an Agent may not sabotage other cards this or the following game
+ round.
+ In respect to this ability, Action Cards affecting political activities
+ are considered to take place on Mecatol Rex, and cards targeting the race
+ sheet are considered to take place on that player's Home System.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Enemy Leaders are automatically captured when defeated in any battle with
+ an Agent present.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Appendix 2: Races
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Yin.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Arborec
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 1 PDS, 1 Cruiser, 1 Carriers, 2 Fighters
+\begin_inset Newline newline
+\end_inset
+
+Agent, Diplomat, General
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, Stasis Capsules
+\end_layout
+
+\begin_layout Standard
+You may not build Ground Forces with your Space Docks.
+\end_layout
+
+\begin_layout Standard
+Your Ground Forces have a production capacity of 1.
+ You may not build units with Ground Forces that have moved during the same
+ activation.
+\end_layout
+
+\begin_layout Standard
+At the start of the Status Phase, place 1 Ground Force on one planet you
+ control.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Bioplasmosis
+\noun default
+ (3): At the beginning of the Strategy Phase, you may move 1 Ground Force
+ from a planet you control to a friendly or uncontrolled planet in an adjacent
+ system.
+ (Discard any Domain Counters on the planet)
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Spore Acceleration
+\noun default
+ (5): Increase the build capacity of your Ground Forces by 1.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Yin.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Ghosts of Creuss
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 1 Carrier, 2 Fighters, 2 Destroyer
+\begin_inset Newline newline
+\end_inset
+
+Agent, Diplomat, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, XRD Transporters
+\end_layout
+
+\begin_layout Standard
+You may treat "A" and "B" Wormhole systems as if they were adjacent to each
+ other for movement purposes only.
+\end_layout
+
+\begin_layout Standard
+You may always use Wormholes, regardless of other game effects or restrictions.
+\end_layout
+
+\begin_layout Standard
+Otherplayers may not use "A" or "B" Wormholes to travel into a system you
+ control.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Dimensional Splicer
+\noun default
+ (3): At the start of a battle in a system containing a Wormhole and at
+ least 1 of your ships, you may assign 1 hit to 1 enemy ship of your choice.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Slave Wormhole Generator
+\noun default
+ (5): At the start of each Status Phase, you may place (or move) your extra
+ "A" or "B" Wormhhole token into any empty or friendly (contains friendly
+ units or control markers) non-Home System.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Hacan.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Emirates of Hacan
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 2 Carriers, 2 Fighters, 1 Cruiser
+\begin_inset Newline newline
+\end_inset
+
+Diplomat, General, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Enviro Compensator, Sarween Tools
+\end_layout
+
+\begin_layout Standard
+You to not require approval to make a Trade Agreement.
+\end_layout
+
+\begin_layout Standard
+You do not need to spend a CC to execute the secondary ability of Trade.
+\end_layout
+
+\begin_layout Standard
+When you receive Trade Goods from your Trade Agreements, you receive one
+ additional Trade Good for each trade agreement.
+\end_layout
+
+\begin_layout Standard
+No player may voluntarily break a Trade Contract with you.
+\end_layout
+
+\begin_layout Standard
+During the Status Phase, you may trade Action Cards with other players.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Production Centers
+\noun default
+ (3): As an Action, once per round, spend one Strategic CC to gain 6 Trade
+ Goods, then give 2 of your Trade Goods to one other player.
+ You may only perform this action if you have fewer than 6 Trade Goods.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Quantum Datahub Node (5):
+\noun default
+ At the end of the Strategy Phase, you may trade one of your Strategy Cards
+ with a Strategy Card belonging to one of your trade partners.
+ The other player does not need to agree to this trade.
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Jolnar.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ Universities of Jol-Nar
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 2 Ground Forces, 2 PDS, 2 Carriers, 1 Fighter, 1 Dreadnought
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Scientist, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Hylar V Assault Laser, Antimass Deflectors, Enviro Compensator, Sarween
+ Tools
+\end_layout
+
+\begin_layout Standard
+You receive -1 on your combat rolls.
+\end_layout
+
+\begin_layout Standard
+When executing the Secondary Ability of the Technology Strategy, you may
+ 
+\emph on
+additionally
+\emph default
+ execute the Primary Ability.
+\end_layout
+
+\begin_layout Standard
+You may spend a Strategy CC to immediately re-roll any one die you rolled.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Electro-Resonance Turbines (2):
+\noun default
+ When an opponent activates a system you control, gain 3 Trade Goods from
+ the Trade Supply.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Spatial Conduit Network
+\noun default
+ (6): 
+\color red
+During the movement step of an activation, your ships may teleport in if
+ the system contains no enemy planets or ships.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-L1z1x.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The L1Z1X Mindnet
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 5 Ground Forces, 1 PDS, 1 Carrier, 3 Fighters, 1 Dreadnought
+\begin_inset Newline newline
+\end_inset
+
+Agent, Diplomat, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Enviro Compensator, Stasis Capsules, Cybernetics, Hylar V Assault Laser
+\end_layout
+
+\begin_layout Standard
+You start with one 
+\color red
+fewer
+\color inherit
+ CC in your Strategy Allocation.
+\end_layout
+
+\begin_layout Standard
+Your Dreadnought units cost 1 less resource.
+\end_layout
+
+\begin_layout Standard
+Your Dreadnought units receive +1 during Space Battles.
+\end_layout
+
+\begin_layout Standard
+Your Ground Force units recieve +1 during Invasion Combat.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Dreadnought Invasion Pod
+\noun default
+ (2): Your Dreadnoughts may now carry one additional Ground Force.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Inheritance Systems (5):
+\noun default
+ When researching Technology using the Technology Strategy Card, you may
+ spend 2 additional resources to ignore the Technology's prerequisites.
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Letnev.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Barony of Letnev
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 3 Ground Forces, 1 Carrier, 1 Destroyer, 1 Dreadnought
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Diplomat, General
+\begin_inset Newline newline
+\end_inset
+
+Hylar V Assault Laser, Antimass Deflectors
+\end_layout
+
+\begin_layout Standard
+Before any Combat Round, you may spend 2 Trade Goods to give all your spaceships
+ +1, or all of your Ground Forces +2 on their combat rolls for that round
+ of combat.
+\end_layout
+
+\begin_layout Standard
+Your fleets may always contain one more ship than your Fleet Supply limit.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Noneuclidean Shielding (4):
+\noun default
+ When you use the sustain damage ability of one of your units, it prevents
+ 2 casualties (instead of just 1).
+ 
+\color red
+Instead, your units with Sustain Damage can sustain one additional hit.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+L4 Disruptors
+\noun default
+ (6): You may use your racial special during Invasion Combat without paying
+ any Trade Goods.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Mentak.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Mentak Coalition
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 1 PDS, 1 Carrier, 3 Cruisers
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, Diplomat
+\begin_inset Newline newline
+\end_inset
+
+Hylar V Assault Laser, Enviro Compensator
+\end_layout
+
+\begin_layout Standard
+You start the game with one extra CC in your Fleet Supply.
+\end_layout
+
+\begin_layout Standard
+Before a Space Battle begins you may fire with up to two Cruisers or Destroyers
+ (or a mix).
+ Enemy casualites are taken immediately.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+As an Action, spend 1 Strategy CC to
+\color inherit
+ take one Trade Good token from up to two different players.
+ Each such target must have at least 3 Trade Goods on his Race Sheet.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Salvage Operations
+\noun default
+ (4): Gain 2 Trade Goods at the end of each Space Battle in which you participat
+e.
+ 
+\color red
+If you lost, only gain 1 TG.
+
+\color inherit
+ If you won the battle, you may build one ship in the system of a unit type
+ that you destroyed during combat.
+ You must pay that ship's resource cost.
+ 
+\color red
+War Suns may be salvaged, but only have 1 movement without War Sun technology.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Mirror Computing (4):
+\noun default
+ When you spend Trade Goods, each Trade Good counts as 2 resources or 2
+ influence (instead of 1).
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Muaat.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Embers of Muaat
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground forces, 2 Fighters, 1 War Sun
+\begin_inset Newline newline
+\end_inset
+
+Admiral, General, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Enviro Compensator, Sarween Tools, War Sun
+\end_layout
+
+\begin_layout Standard
+Your War Suns have a base movement of 1, until you have researched all standard
+ prereqs for War Sun technology.
+\end_layout
+
+\begin_layout Standard
+Your ships may move through, but not stop in, Supernovas.
+\end_layout
+
+\begin_layout Standard
+As an Action, spend one Strategy CC to place 2 free Fighters or one free
+ Destroyer in any one system containing one of your War Suns or Space Docks.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Nova Seed (3): 
+\noun default
+As an action, you may remove this card from the game to replace a system
+ you control with a Supernova system tile.
+ This may not be used on Mecatol Rex, a Home System, or adjacent to a red-border
+ed system.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Magmus Reactor 
+\noun default
+(5): Your War Suns now have +1 movement and a base cost of 10 (down from
+ 12) resources.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Naalu.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Naalu Collective
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 
+\color red
+0 PDS
+\color inherit
+, 1 Carrier, 4 Fighters, 
+\color red
+0 Cruiser
+\color inherit
+, 1 Destroyer
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, Diplomat
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, Enviro Compensator
+\end_layout
+
+\begin_layout Standard
+If attacked, your fleet may retreat before the beginning of the Space Battle
+ (following normal retreat rules).
+\end_layout
+
+\begin_layout Standard
+Your Fighters receive +1 during Space Battles.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Removed: The initiative number on your Strategy Card is always 0, meaning
+ you always go first.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Before the Action Phase begins, you may take one Tactical Action.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Hybrid Crystal Drives (3):
+\noun default
+ Your Carriers and unsupported Advanced Fighters each only count as 1/2
+ a ship (rounded up) towards the Fleet Supply.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Telepathic Mind Weapon
+\noun default
+ (5): When your opponent activates a system 
+\color red
+containing one of your planets
+\color inherit
+, he immediately loses one Fleet Supply CC.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Yin.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Nekro Virus
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 1 Ground Force, 1 Mechanized Unit, 1 Carrier, 2 Cruisers
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, General
+\begin_inset Newline newline
+\end_inset
+
+Gen Synthesis, Hylar V Assault Laser, Dacxive Animators
+\end_layout
+
+\begin_layout Standard
+You may not vote on Political or Agenda cards.
+\end_layout
+
+\begin_layout Standard
+When you destroy at least 1 enemy unit in a Space Battle or Invasion Combat
+ (excluding PDS fire) you may copy (receive) 1 free Technology Card (ignoring
+ prereqs) that the enemy player has already researched.
+ Limit once per battle.
+\end_layout
+
+\begin_layout Standard
+You may not receive Technology Cards from Political, Assembly, Action, or
+ Strategy Cards.
+ Any time you would receive a Technology Card in this way, instead gain
+ 3 Command Counters.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Valefar Assimilator (0): 
+\noun default
+Gain this Technology by using your racial ability to copy a racial Technology
+ an opponent has researched.
+ You cannot copy a Technology that modifies their racial ability.
+ Place the race's Control Marker on this card to remember which ability
+ you have copied.
+ When playing with the Shattered Empire expansion, you may steal two racial
+ Technologies in total.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Norr.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ Sardak N'orr
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 5 Ground Forces, 1 PDS, 1 Carrier, 1 Cruiser
+\begin_inset Newline newline
+\end_inset
+
+Admiral, General, General
+\begin_inset Newline newline
+\end_inset
+
+Hylar V Assault Laser, Deep Space Cannon
+\end_layout
+
+\begin_layout Standard
+You receive +1 on your combat rolls.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Valkyrie Armor (3):
+\noun default
+ At the end of a round of Invasion Combat, roll one die for each casualty
+ you take.
+ For each 10 you roll, your opponent must immediately take 1 additional
+ casualty.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Exotrireme (4):
+\noun default
+ At the end of a round of Space Battle, you may destroy 1 of your Dreadnoughts
+ present to destroy 2 present enemy ships of your choice.
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Saar.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Clan of Saar
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 2 Carriers, 2 Fighters, 1 Cruiser
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, General
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, XRD Transporter
+\end_layout
+
+\begin_layout Standard
+Gain 1 Trade Good every time you acquire a new planet.
+\end_layout
+
+\begin_layout Standard
+You may fulfill Objectives even if you don't control your Home System.
+\end_layout
+
+\begin_layout Standard
+Saar Space Docks are placed in Systems rather than Planets.
+ They have a base movement of 1 and production capcity of 4, and do not
+ count as ships.
+ If present with enemy ships, they are destroyed rather than blockaded.
+ GF/PDS may be built on any planet/fleet in the system.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Chaos-Mapping (2): 
+\noun default
+You may activate Asteroid Field systems.
+ Your Fleet Supply limit in Asteroid Field systems is 3 (which cannot be
+ modified).
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Floating Factory
+\noun default
+ (3): Your Space Docks now have a production capacity of 5, 
+\noun on
+Capacity
+\noun default
+ (5, Fighter), and +1 movement.
+ 
+\color red
+They now retreat/withdraw from Space Battles with the rest of a fleet, and
+ may produce units after moving, unless they moved from a system with a
+ flipped CC.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Sol.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Federation of Sol
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 5 Ground Forces, 2 Carriers, 1 Destroyer
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, Diplomat
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, Cybernetics
+\end_layout
+
+\begin_layout Standard
+As an action, you may spend one Strategy CC to place two free Ground Forces
+ on any one Planet you control.
+\end_layout
+
+\begin_layout Standard
+During the Status Phase, you receieve one extra CC.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Mark II Advanced Carriers
+\noun default
+ (4): Your carriers now have 
+\noun on
+Capacity
+\noun default
+ (8) and 
+\noun on
+Sustain
+\noun default
+ (1).
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Spec Ops Training (5):
+\noun default
+ Each time you roll a 1 during Invasion Combat, you may reroll the die.
+ You must use the second result.
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Winnu.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Winnu
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 3 Ground Forces, 1 PDS, 1 Carrier, 2 Fighters, 1 Cruiser
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, Scientist
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, Enviro Compensator, Stasis Capsules
+\end_layout
+
+\begin_layout Standard
+You may always add the Influence of your Home System planet to votes, even
+ if it is exhausted.
+\end_layout
+
+\begin_layout Standard
+Your planets that contain at least 1 Ground Force are immune to the Local
+ Unrest action card.
+\end_layout
+
+\begin_layout Standard
+You to not need to spend a Command Counter to execute the secondary ability
+ of Technology.
+\end_layout
+
+\begin_layout Standard
+The Winnaran home world has a yellow (general) technology specialty.
+ This specialty works exactly like the red, green, and blue technology specialti
+es except that it does not count for the purpose of fulfilling objectives.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Bioptic Recyclers
+\noun default
+ (3): As an action, once per round, you may discard an Action Card from
+ your hand to gain 2 Trade Goods or 1 Command Counter.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Lazax Gate Folding (4):
+\noun default
+ At the start of each Status Phase, you may place 1 Ground Force on Mecatol
+ Rex.
+ You may only do this if the planet is uncontrolled or is under your control.
+ (Discard any Domain Counters on the planet.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Xxcha.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Xxcha Kingdom
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 2 Ground Forces, 1 PDS, 1 Carrier, 3 Fighters, 2 Cruisers
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Diplomat, Diplomat
+\begin_inset Newline newline
+\end_inset
+
+Antimass Deflectors, Enviro Compensator
+\end_layout
+
+\begin_layout Standard
+When executing the Secondary Ability of the Diplomacy Strategy, you may
+ execute the Primary Ability instead.
+ When playing with Diplomacy II, you must also pay 1 Strategy CC.
+\end_layout
+
+\begin_layout Standard
+Immediately after a Political Card has been chosen and read aloud, you may
+ spend 1 Strategy CC to cancel the card, and force another Political Card
+ to be chosen (and drawn if necessary).
+\end_layout
+
+\begin_layout Standard
+Your opponents receive -1 on all combat rolls against you during the first
+ combat round of all Space Battles and Invasion Combat.
+\end_layout
+
+\begin_layout Standard
+Xxcha may use either the resource or influence value of a planet when counting
+ votes.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Instinct Training (4):
+\noun default
+ Once per game round, you may spend 1 Command Counter from your Strategy
+ Allocation area to cancel an Action Card just played by an opponent.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Diplomats
+\noun default
+ (5): Once per Game Round, when an opponent activates a system you control,
+ 
+\color red
+for free
+\color inherit
+, you may force him to instead place the Command Counter into his reinforcements
+ and immediately end his action.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Yin.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Yin Brotherhood
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 4 Ground Forces, 2 Carriers, 4 Fighters, 1 Destroyer
+\begin_inset Newline newline
+\end_inset
+
+Agent, Diplomat, General
+\begin_inset Newline newline
+\end_inset
+
+Hylar V Assault Laser, Automated Defense Turrets
+\end_layout
+
+\begin_layout Standard
+Before Invasion Combat in which you are the attacker, you may roll 1 die.
+ On a 5+ your opponent loses 1 Ground Force and you gain 1 Ground Force.
+\end_layout
+
+\begin_layout Standard
+Immediately before the second round of a Space Battle, you may discard one
+ of your participating Destroyers or Cruisers to choose one opposing ship
+ present and immediately inflict one hit on it.
+\end_layout
+
+\begin_layout Standard
+As an Action, once per game round you may place your control marker on an
+ unexhausted Planet Card you control.
+ Until the end of the Round, its Influence and Resource values are reversed.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Yin Spinner (2): 
+\noun default
+Build 1 free Ground Force each time you build units at a Space Dock.
+ This free Ground Force does not count towards any build limits.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Fanatacism
+\noun default
+ (4): You may roll 2 dice at the start of Invasion Combat for defections.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename gfx/cc/CC-Yssaril.eps
+	lyxscale 30
+	height 1em
+
+\end_inset
+
+ The Yssaril Tribes
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+1 Space Dock, 5 Ground Forces, 1 PDS, 
+\color red
+1
+\color inherit
+ Carrier, 2 Fighters, 1 Cruiser
+\begin_inset Newline newline
+\end_inset
+
+Admiral, Agent, Agent
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+Light/Wave Deflector, NOT Antimass Deflectors, NOT XRD Transporter
+\end_layout
+
+\begin_layout Standard
+You may skip action turns during the Action Phase without passing.
+ You may not skip two in a row.
+\end_layout
+
+\begin_layout Standard
+You draw one additional Action Card during every Status Phase.
+ You are never limited to a hand size of Action Cards, regardless of game
+ rules or any active Political Cards.
+\end_layout
+
+\begin_layout Standard
+Once during every Strategy Phase, you may look at one other player's hand
+ of Action Cards.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Shuttle Logistics
+\noun default
+ (3): 
+\color red
+During the movement step of an activation, you may move in up to 2 Ground
+ Forces from adjacent unactivated systems.
+ This limit is increased by 2 for every Strategy CC spent.
+ Such units may participate in planetary landings as normal, and are returned
+ to their original position if unable to land for any reason.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Mageon Implants (4):
+\noun default
+ When looking at your opponent's hand of Action Cards using your racial
+ ability, you may steal 1 card of your choice and add it to your hand.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Appendix 3: Errata & Rulings
+\end_layout
+
+\begin_layout Standard
+A rule referring to a 
+\begin_inset Quotes eld
+\end_inset
+
+game turn
+\begin_inset Quotes erd
+\end_inset
+
+ means a 
+\begin_inset Quotes eld
+\end_inset
+
+game round.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Action Cards
+\end_layout
+
+\begin_layout Standard
+With 4 players, remove Strategic Flexibility and Strategic Shift.
+\end_layout
+
+\begin_layout Description
+A
+\begin_inset space ~
+\end_inset
+
+Beacon
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+Hope This card should read 
+\begin_inset Quotes eld
+\end_inset
+
+Play: Immediately before any Space Battle involving your Flagship begins.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Armistice The planet may still be annexed by Diplomacy II [consensus].
+\end_layout
+
+\begin_layout Description
+Chemical
+\begin_inset space ~
+\end_inset
+
+Warfare The defender chooses which units are destroyed [consensus].
+\end_layout
+
+\begin_layout Description
+Corporate
+\begin_inset space ~
+\end_inset
+
+Sponsorship This does not allow you to purchase a second technology.
+\end_layout
+
+\begin_layout Description
+Council
+\begin_inset space ~
+\end_inset
+
+Dissolved Do not use when playing with Assembly.
+\end_layout
+
+\begin_layout Description
+Cultural
+\begin_inset space ~
+\end_inset
+
+Crisis Saar space docks are immune to this card.
+ Only removes racial abilities specified on the race card, not other places
+ (ie Trade II referring to Hacan) [via Corey].
+ Prevents player from being affected by Multiculturalism [via Corey].
+\end_layout
+
+\begin_layout Description
+Determine
+\begin_inset space ~
+\end_inset
+
+Policy Not directly compatible with Assembly, but may be house ruled easily
+ [consensus].
+\end_layout
+
+\begin_layout Description
+Diplomatic
+\begin_inset space ~
+\end_inset
+
+Immunity Should refer to game round [consensus].
+\end_layout
+
+\begin_layout Description
+Direct
+\begin_inset space ~
+\end_inset
+
+Hit Add: 
+\begin_inset Quotes eld
+\end_inset
+
+Play: Immediately after the ship has been damaged in a Space Battle in which
+ you participate.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Discredit May only be played when making a Voice of the Council vote.
+\end_layout
+
+\begin_layout Description
+Emergency
+\begin_inset space ~
+\end_inset
+
+Repairs May be played between taking hits on a fleet during combat.
+ 
+\color red
+Cannot be used to stop a Direct Hit.
+\end_layout
+
+\begin_layout Description
+Experimental
+\begin_inset space ~
+\end_inset
+
+Battlestations The space dock recieves all regular PDS bonuses.
+\end_layout
+
+\begin_layout Description
+Fantastic
+\begin_inset space ~
+\end_inset
+
+Rhetoric May affect a Voice of the Council vote.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Faulty
+\begin_inset space ~
+\end_inset
+
+Targeting
+\begin_inset space ~
+\end_inset
+
+System Instead of re-rolling 1 PDS die, you may obstruct all PDS fire during
+ the Movement step.
+\end_layout
+
+\begin_layout Description
+Focused
+\begin_inset space ~
+\end_inset
+
+Research Allows you to skip only one pre-requisite you qualify for (eg,
+ no Advanced Fighters as first tech).
+ You do not need to purchase the skipped tech to purchase further technologies.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Friendly
+\begin_inset space ~
+\end_inset
+
+Fire Replace: During this combat round, opposing fighters will inflict a
+ hit on their own forces at natural rolls of 1-4.
+ Play: Just before a combat round begins.
+\end_layout
+
+\begin_layout Description
+In
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+Silence
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+Space You may pass through one 
+\color red
+(or more)
+\color inherit
+ enemy occupied systems, but the destination must be free of all enemy ships.
+
+\color red
+ Fleets containing Dreadnoughts or War Suns will not benefit from this card.
+\end_layout
+
+\begin_layout Description
+Local
+\begin_inset space ~
+\end_inset
+
+Unrest If the targeted planet reverts to neutral, destroy any Space Docks/PDS.
+\end_layout
+
+\begin_layout Description
+Lucky
+\begin_inset space ~
+\end_inset
+
+Shot The active player chooses which ship is destroyed.
+\end_layout
+
+\begin_layout Description
+Minelayers Remove casualties after the first combat round.
+\end_layout
+
+\begin_layout Description
+Multiculturalism Cannot copy Saar Space Docks.
+ If a player copies Naalu's Initiative 0 ability, the Speaker decides who
+ acts first.
+ A player affected by Cultural Crisis has no abilities to copy with this
+ card [via Corey].
+\end_layout
+
+\begin_layout Description
+Plague Roll for each unit separately [via Corey].
+\end_layout
+
+\begin_layout Description
+Political
+\begin_inset space ~
+\end_inset
+
+Stability In 3- and 4-player games, a player who holds Initiative or Imperial
+ MAY play this card, so long as they don't use it to keep Initiative or
+ Imperial.
+\end_layout
+
+\begin_layout Description
+Privateers Players may not dump Trade Goods to other players to avoid this
+ effect [consensus].
+
+\color red
+ Replace: Choose an opponent, and claim half of his current Trade Goods
+ (rounded down).
+ Play: As an action.
+\end_layout
+
+\begin_layout Description
+Public
+\begin_inset space ~
+\end_inset
+
+Disgrace Any bonus tokens on the Strategy Card are returned to it [via Corey].
+\end_layout
+
+\begin_layout Description
+Rally
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+People May not be played if your home system is being blockaded.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Rare
+\begin_inset space ~
+\end_inset
+
+Mineral Replace with: Receive 3 Trade Goods.
+ Play: Immediately after acquiring any planet.
+\end_layout
+
+\begin_layout Description
+Recheck You may not recheck a space mine roll, as it's not a combat roll
+ [consensus].
+\end_layout
+
+\begin_layout Description
+Ruinous
+\begin_inset space ~
+\end_inset
+
+Tarrifs Replaced by a Shatterd Empire card.
+\end_layout
+
+\begin_layout Description
+Sabotage You may not Sabotage a Sabotage.
+ If an action card provides a choice, may be played after the choice is
+ made.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Signal
+\begin_inset space ~
+\end_inset
+
+Jam Your opponent's Command Counter must be placed ship side up.
+ (See Fleet Logistics tech).
+ Friendly Home System may be targeted.
+\end_layout
+
+\begin_layout Section*
+Objective Cards
+\end_layout
+
+\begin_layout Description
+
+\color red
+Merciless
+\begin_inset space ~
+\end_inset
+
+(Secret) May be accomplished against 
+\emph on
+any
+\emph default
+ opponent.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Threatening
+\begin_inset space ~
+\end_inset
+
+(Secret) Requires you to be adjacent to 
+\emph on
+three
+\emph default
+ (or all, if less than 4 players) opponent Home Systems.
+\end_layout
+
+\begin_layout Section*
+Political Cards
+\end_layout
+
+\begin_layout Description
+Ancient
+\begin_inset space ~
+\end_inset
+
+Artifact Affects an entire planetary force (the combined Ground Force units),
+ not each unit individually.
+ On a 1-5, any Leaders present are also destroyed.
+ On a 6-10, the Technology cards are awarded in sequence so that the first
+ may satisfy a prerequisite for the second.
+\end_layout
+
+\begin_layout Description
+Open
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+Trade
+\begin_inset space ~
+\end_inset
+
+Routes The against outcome should read: 
+\begin_inset Quotes eld
+\end_inset
+
+This round, each player must give all the Trade Goods he receives to the
+ player on his left.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Sharing
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+Technology This agenda should not be a Law.
+\end_layout
+
+\begin_layout Section*
+Technology Cards
+\end_layout
+
+\begin_layout Standard
+The race specific technologies Production Centers, Diplomats, and Spatial
+ Conduit Network state that they may be used once per turn.
+ This should be once per 
+\emph on
+game round
+\emph default
+.
+\end_layout
+
+\begin_layout Description
+Advanced
+\begin_inset space ~
+\end_inset
+
+Fighters The following text should be added to this card: 
+\begin_inset Quotes eld
+\end_inset
+
+Any Fighters in excess of a systems fighter capacity will count towards
+ your Fleet Supply limit.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\color red
+Assault
+\begin_inset space ~
+\end_inset
+
+Cannons Now apply to Cruisers as well as Dreadnoughts.
+ The extra 'shot' means one die only.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Fleet
+\begin_inset space ~
+\end_inset
+
+Logistics Replace: As an action, once per round you may spend 1 Strategy
+ Command Counter to flip one of your Command Counters on the board.
+ Units within this system are now allowed to leave this system during future
+ activations.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Gen
+\begin_inset space ~
+\end_inset
+
+Synthesis Instead of reviving your units, upgrades an additional Shock Troop
+ after a successful invasion.
+\end_layout
+
+\begin_layout Description
+Inheritance
+\begin_inset space ~
+\end_inset
+
+Systems Should be Technology Strategy Card.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Integrated
+\begin_inset space ~
+\end_inset
+
+Economy Replace: All your planets may now produce units during the Production
+ step of a Tactical Action, with a production capacity equal to its Resource
+ value.
+ You may also reallocate Command Counters at the end of your turns.
+\end_layout
+
+\begin_layout Description
+Micro
+\begin_inset space ~
+\end_inset
+
+Technology This card should read: 
+\begin_inset Quotes eld
+\end_inset
+
+When you receive Trade Goods from your trade agreements, you now receive
+ one additional Trade Good for each of your active trade agreements.
+ 
+\color red
+Additionally, you may now spend Influence instead of Resources when producing
+ Trade Goods.
+\color inherit
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\color red
+Nano
+\begin_inset space ~
+\end_inset
+
+Technology Instead of preventing Action Cards from targeting ships, will
+ repair all your units at the end of your turns.
+\end_layout
+
+\begin_layout Description
+Quantum
+\begin_inset space ~
+\end_inset
+
+Datahub
+\begin_inset space ~
+\end_inset
+
+Node Should be Strategy Phase.
+\end_layout
+
+\begin_layout Description
+Transfabrication Should say produce units instead of build units.
+ Units scuttled by Transfabrication may not be reproduced during the same
+ game round.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Transit
+\begin_inset space ~
+\end_inset
+
+Diodes Replace: As an action, pay one Strategy Command Counter to move up
+ to 6 of your Ground Forces or PDS (PDS count as 2) from the board to any
+ friendly planets or fleets.
+ Units in activated systems may not move.
+ Now has Hypermetabolism as a third independent prereq.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Hylar V Assault Laser, Automated Defense Turrets, Assault Cannons, Graviton
+ Laser System, and Deep Space Cannon are considered different types of weaponry.
+ Only one such technology may modify combat behaviour at a time.
+\end_layout
+
+\begin_layout Section*
+Units
+\end_layout
+
+\begin_layout Standard
+
+\color black
+The cost of a PDS unit is 2 resources, base game player sheets have it listed
+ incorrectly.
+\end_layout
+
+\begin_layout Section*
+Game Rules
+\end_layout
+
+\begin_layout Standard
+The Arborec, Xxcha Kingdom and Yin Brotherhood have special abilities with
+ updated text (see above).
+\end_layout
+
+\begin_layout Standard
+The term 
+\begin_inset Quotes eld
+\end_inset
+
+combat roll
+\begin_inset Quotes erd
+\end_inset
+
+ is inclusive, and covers any time you roll a die and compare it to the
+ unit's combat value.
+\end_layout
+
+\begin_layout Standard
+Effects that modify results during 
+\begin_inset Quotes eld
+\end_inset
+
+Space Combat
+\begin_inset Quotes erd
+\end_inset
+
+ should be interpreted as during 
+\begin_inset Quotes eld
+\end_inset
+
+Space Battles.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Effects that take place during Space Battles or Invasion Combat only take
+ place during the actual battle/combat sequence, not during any other effects.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Appendix 4: Strategy Cards
+\end_layout
+
+\begin_layout Section*
+Base Strategy Cards
+\end_layout
+
+\begin_layout Subsection*
+1.
+ Initiative
+\end_layout
+
+\begin_layout Standard
+Gain the Speaker Token when you pick this card.
+ You can't pick Initiative next round.
+ You don't need to pay Strategy CC to activate the Secondary ability of
+ other Strategy Cards this round.
+\end_layout
+
+\begin_layout Subsection*
+2.
+ Diplomacy
+\end_layout
+
+\begin_layout Standard
+Name an opponent.
+ Neither you nor the other player may activate systems containing the other's
+ units.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to refresh up to two non-Home-System planet
+ cards.
+\end_layout
+
+\begin_layout Subsection*
+3.
+ Political
+\end_layout
+
+\begin_layout Standard
+Draw 3 Action Cards and 1 Command Counter.
+ Resolve the top card of the Political Deck.
+ Then draw the top three cards of the political deck and read them.
+ Place one on top of the Political Deck and the other two on the bottom.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to draw an Action Card.
+\end_layout
+
+\begin_layout Subsection*
+4.
+ Logistics
+\end_layout
+
+\begin_layout Standard
+Draw 4 Command Counters.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 3 influence to recieve 1 Command Counter, any number of
+ times.
+\end_layout
+
+\begin_layout Subsection*
+5.
+ Trade
+\end_layout
+
+\begin_layout Standard
+(a) Receive 3 Trade Goods, plus trade goods for your active trade agreements.
+ Then, open trade negotiations - you must approve all trades.
+ OR (b) Cancel all trade agreeements.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to receive Trade Goods for your active trade
+ agreements (except ones formed this turn.
+\end_layout
+
+\begin_layout Subsection*
+6.
+ Warfare
+\end_layout
+
+\begin_layout Standard
+Return one of your Command Counters from the board and place it back in
+ your Command Pool.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to choose up to two of your Destroyers or
+ Cruisers on the board.
+ Each unit may now move to one adjacent empty non-Home system.
+ Then place a CC from your reinforcements in each destination system.
+\end_layout
+
+\begin_layout Subsection*
+7.
+ Technology
+\end_layout
+
+\begin_layout Standard
+Recieve one Technology advance.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC and 8 resources to recieve one Technology
+ advance.
+\end_layout
+
+\begin_layout Subsection*
+8.
+ Imperial
+\end_layout
+
+\begin_layout Standard
+Reveal the top card of the Objective deck, then recieve 2 Victory Points.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to build units in one of your systems containing
+ a friendly Space Dock.
+\end_layout
+
+\begin_layout Subsection*
+8.
+ Imperial II
+\end_layout
+
+\begin_layout Standard
+(a) Gain 1 VP if you control Mecatol Rex.
+ You may qualify for any number of Public Objective Cards this Status Phase.
+ OR (b) You may execute the secondary ability for free, and no other player
+ may do so.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to build at one of your Space Docks.
+\end_layout
+
+\begin_layout Section*
+Shattered Empire Strategy Cards
+\end_layout
+
+\begin_layout Subsection*
+1.
+ Leadership
+\end_layout
+
+\begin_layout Standard
+Recieve 3 Command Counters.
+ You may then execute the secondary ability.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 2 influence to recieve 1 Command Counter, up to 3 times.
+\end_layout
+
+\begin_layout Subsection*
+2.
+ Diplomacy II
+\end_layout
+
+\begin_layout Standard
+(a) Choose one system containing a planet you control.
+ Each opponent must place a CC from their reinforcements in the system.
+ OR (b) Execute the secondary ability for free.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Additionally, until you take your first hostile tactical action this round,
+ any player doing such action against you must choose and exhaust one of
+ their planets.
+ (A hostile action is defined as an action that would break Trade Agreements).
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC and 3 influence to claim an empty planet
+ adjacent to or in a system you control, placing your Control Marker on
+ the planet.
+ A player may not claim a planet already claimed this game round, Mecatol
+ Rex, or an enemy's Home System.
+\end_layout
+
+\begin_layout Subsection*
+3.
+ Assembly
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Each player receives 2 Political cards at the beginning of play.
+\end_layout
+
+\begin_layout Standard
+If playing with Voice of the Council, resolve that vote immediately.
+\end_layout
+
+\begin_layout Standard
+Draw 1 Political and 2 Action Cards.
+\end_layout
+
+\begin_layout Standard
+Give the Speaker Token to a player who does not currently have it.
+ Choose a different player to play a Political Card and resolve its agenda.
+ 
+\color red
+A player chosen to play an Agena always has the option of drawing one random
+ card from the pile instead of his hand.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to refresh any number of your Planet Cards
+ with a combined resource and influence of 6 or less.
+\end_layout
+
+\begin_layout Subsection*
+4.
+ Production
+\end_layout
+
+\begin_layout Standard
+Build units in one of your systems containing a friendly Space Dock, with
+ 2 extra resources.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to build up to 3 units in one of your systems
+ containing a friendly Space Dock.
+\end_layout
+
+\begin_layout Subsection*
+5.
+ Trade II
+\end_layout
+
+\begin_layout Standard
+Receive 3 Trade Goods or cancel up to 2 (non-Hacan) trade agreements.
+ Then all players receive Trade Goods for their active trade agreements.
+ Players who are not the active player receive 1 fewer total Trade Goods.
+ Finally, open trade negotiations among all players.
+ You must approve all new trade agreements.
+\end_layout
+
+\begin_layout Subsection*
+6.
+ Warfare II
+\end_layout
+
+\begin_layout Standard
+Place the High Alert token in a system.
+ Your ships 
+\color red
+(units)
+\color inherit
+ in the system with the token gain +1 movement and +1 on all combat rolls.
+ If you move any ships from this system, you may move the token with them.
+ Remove the token from the board at the start of the next Status Phase.
+ 
+\color red
+After resolving the secondary ability, the active player may immediately
+ take another tactical action using a CC from their reinforcements.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to move up to two of your ships from unactivated
+ systems into any adjacent systems you control 
+\color red
+(with no enemy ships)
+\color inherit
+.
+ 
+\color red
+You may load cargo during this move.
+\end_layout
+
+\begin_layout Subsection*
+7.
+ Technology II
+\end_layout
+
+\begin_layout Standard
+Recieve one Technology advance.
+ You may then buy a second advance for 8 resources.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC and 6 resources to recieve one Technology
+ advance.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+When the Jol-Nar player plays the secondary ability of this card, they spent
+ one Strategy CC for a free technology, then may spend 6 resources for a
+ second, then may spend 8 resources for a third.
+\end_layout
+
+\begin_layout Subsection*
+8.
+ Bureaucracy
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Include 1 extra Stage II Objective in the objective deck, and play to one
+ fewer victory point
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+After selecting this Strategy Card, reveal 
+\color red
+(draw)
+\color inherit
+ cards from the Objective Deck equal to the number of Bonus Counters on
+ this card.
+\end_layout
+
+\begin_layout Standard
+Gain 1 CC.
+ 
+\color red
+Openly draw 3 Stage I Public Objective cards and choose one to be turned
+ face-up in the common area.
+ The other cards go to the bottom 
+\emph on
+or
+\emph default
+ the top of the deck (If Stage II is initiated, only 2 objective cards are
+ drawn).
+ You may then spend one influence to flip the Rotation Cycler.
+
+\color inherit
+ You may then immediately claim one public objective that you qualify for.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to draw one Political Card and one Action
+ Card.
+\end_layout
+
+\begin_layout Section*
+Shards of the Throne Strategy Cards
+\end_layout
+
+\begin_layout Subsection*
+3.
+ Political II
+\end_layout
+
+\begin_layout Standard
+Choose one available Political Card to resolve, then draw a new Political
+ Card.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC and 2 influence to draw 2 Action Cards.
+\end_layout
+
+\begin_layout Subsection*
+3.
+ Assembly II
+\end_layout
+
+\begin_layout Standard
+Draw 2 Political Cards.
+ Choose a player to choose a Political Card from their hand, give the Speaker
+ Token to a different player, and then resolve the chosen agenda.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to draw 1 Action Card and refresh 1 non-home-syst
+em planet.
+\end_layout
+
+\begin_layout Subsection*
+5.
+ Trade III
+\end_layout
+
+\begin_layout Standard
+Open trade negotiations, you must approve all new agreements.
+ Then all players recieve Trade Goods from active trade agreements (even
+ new ones).
+ Then, each player pays 1 Trade Good to each of their Mercenary, or discards
+ it.
+ Finally, you may recruit 1 of the top 2 Mercenary Cards from the deck.
+\end_layout
+
+\begin_layout Standard
+Secondary: Spend 1 Strategy CC to break a trade agreement between any 2
+ other (non-Hacan) players and gain 1 Trade Good.
+\end_layout
+
+\begin_layout Section*
+
+\color red
+Ascension Strategy Cards
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+9.
+ Prospect
+\end_layout
+
+\begin_layout Standard
+
+\color red
+(a) Draw one Stage I Public Objective Card.
+ Only you may qualify for this Objective.
+ OR (b) Immediately receive one Action Card and two Trade Goods.
+ OR (c) You may immediately reloacate all your Leaders to any Friendly Planets
+ or Fleets.
+ You may then trade in up to three Action or Political cards for new cards
+ of the same type.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Rules without a home
+\end_layout
+
+\begin_layout Section*
+
+\color red
+Option: Twilight Council
+\end_layout
+
+\begin_layout Standard
+
+\color red
+All players reveal one agenda in the beginning of the Strategy Phase, placed
+ face-up in the common play area and marked with a race flag.
+ Each player may only have one agenda revealed at a time, and may be changed
+ at the beginning of each Strategy Phase.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The Primary Ability of the Assembly Strategy Card is changed to vote on
+ multiple agendas, see the following section on Strategy Cards.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Multiple agendas are placed in a visible enforcement order, but all voting
+ happens simultaneously via a hidden ballot.
+ Your total votes must be split among the included agendas.
+ Voice of the Council elections occur simultaneously as a normal agenda.
+ Agendas without any votes are discarded with no effect.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Some Action Cards should be modified to work with Twilight council:
+\end_layout
+
+\begin_layout Description
+
+\color red
+Bribery +1 votes per TG to 
+\emph on
+each
+\emph default
+ agenda.
+ Play AFTER votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Council
+\begin_inset space ~
+\end_inset
+
+Dissolved Cancels all voting.
+ Play BEFORE votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Determine
+\begin_inset space ~
+\end_inset
+
+Policy Force the active player to include an agenda chosen from the Political
+ deck.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Discredit Choose a player and one of the included agendas.
+ All this player's votes for that agenda are ignored.
+ Play AFTER votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Fantastic
+\begin_inset space ~
+\end_inset
+
+Rhetoric All the bonus votes must go to a single agenda.
+ Play BEFORE votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Thugs The target may not participate in any voting this round.
+ Play BEFORE votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Veto Discard an included agenda before votes are cast.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Xxcha
+\begin_inset space ~
+\end_inset
+
+Veto
+\begin_inset space ~
+\end_inset
+
+ability Pay one Strategy CC to immediately discard one of the included agendas.
+ Play BEFORE votes are counted.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+3.
+ Twilight Council
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color red
+At the beginning of the first Strategy Phase, each player reveals one agenda
+ from their hand, to be placed face-up in the common play area and marked
+ with a race flag.
+ These cards may be exchanged with another card from the player's hand at
+ the beginning of each subsequent Strategy Phase, and no player may have
+ more than 1 agenda revealed at a time.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Play as Assembly, except that you choose up to 3 (2, if less than 5 players)
+ revealed agendas.
+ If you claim the Speaker token, you may not choose yours, and the chosen
+ agendas must be voted on.
+ Otherwise, you may choose to vote on or discard each of the chosen agendas.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Multiple agendas are placed in a visible enforcement order, but all voting
+ happens simultaneously by secret ballot.
+ Your total votes must be split among the included agendas.
+ Voice of the Council elections occur simultaneously as a normal agenda.
+ Agendas without any votes are discarded with no effect.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color red
+When playing with Twilight Council, the following Action Cards and Abilities
+ are modified.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Bribery +1 vote to one agenda per TG spent, play 
+\emph on
+after
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Council
+\begin_inset space ~
+\end_inset
+
+Dissolved Replace with: Cancel all voting.
+ No Political cards are discarded.
+ Play 
+\emph on
+before
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Determine
+\begin_inset space ~
+\end_inset
+
+Policy Force the active player to include an agenda chosen from the Political
+ Deck as one of the cards to vote on.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Discredit Choose a player and one of the included agendas.
+ That player's votes on that agenda only are ignored.
+ Play 
+\emph on
+after
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Fantastic
+\begin_inset space ~
+\end_inset
+
+Rhetoric All 10 votes must go to a single agenda.
+ Play 
+\emph on
+before
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Thugs Player may not participate in any voting this round.
+ Play 
+\emph on
+before
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Veto Discard an included agenda from consideration.
+ Play 
+\emph on
+before
+\emph default
+ votes are counted.
+\end_layout
+
+\begin_layout Description
+
+\color red
+Xxcha
+\begin_inset space ~
+\end_inset
+
+Veto
+\begin_inset space ~
+\end_inset
+
+ability Pay one Strategy CC to act as Veto card.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+5.
+ Trade III (Asc)
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Place/add the indicated number of Trade Goods on top of 
+\emph on
+all
+\emph default
+ active Trade Agreements.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+(a) Receive 3 Trade Goods.
+ You may then use the secondary ability for free.
+ OR (b) Discard all Trade Agreements in play.
+ All players may collect half (round up) of the Trade Goods on their Trade
+ Agreements.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Open trade negotiations, you must approve all new trades.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Secondary: Spend 1 Strategy CC to collect all Trade Goods from your Trade
+ Agreements and add to your Trade Goods area.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+When Trade Agreements are broken as a result of combat, the attacker discards
+ all Trade Goods present on his Trade Contracts, while the defender may
+ collect them for free.
+\end_layout
+
+\end_body
+\end_document
